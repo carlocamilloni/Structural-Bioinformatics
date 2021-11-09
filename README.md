@@ -5,3 +5,5 @@ Lab.01 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.sv
 
 Lab.02 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/carlocamilloni/Structural-Bioinformatics/blob/main/StructurePred.ipynb) Protein structure prediction
 
+Lab.03 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/carlocamilloni/Structural-Bioinformatics/blob/main/lab03_docking.ipynb.ipynb) Small molecules docking
+
