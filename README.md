@@ -7,3 +7,4 @@ Lab.02 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.sv
 
 Lab.03 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/carlocamilloni/Structural-Bioinformatics/blob/main/lab03_docking.ipynb) Small molecules docking
 
+Lab.04 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/carlocamilloni/Structural-Bioinformatics/blob/main/quantum_chemistry.ipynb) Quantum chemistry
