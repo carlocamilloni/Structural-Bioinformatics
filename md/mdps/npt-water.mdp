@@ -10,7 +10,7 @@ integrator               = md
 ; Start time and timestep in ps
 tinit                    = 0
 dt                       = 0.002
-nsteps                   = -1 
+nsteps                   = 250000 
 ; For exact run continuation or redoing part of a run
 init_step                = 0
 ; Part index is updated automatically on checkpointing (keeps files separate)
@@ -51,16 +51,16 @@ pbc                      = xyz
 periodic_molecules       = no
 ; Allowed energy error due to the Verlet buffer in kJ/mol/ps per atom,
 ; a value of -1 means: use rlist
-verlet-buffer-tolerance  = 0.001
+verlet-buffer-tolerance  = 0.005
 ; nblist cut-off        
-rlist                    = 0.9
+rlist                    = 0.8
 
 ; OPTIONS FOR ELECTROSTATICS AND VDW
 ; Method for doing electrostatics
 coulombtype              = pme
 coulomb-modifier         = Potential-shift
 rcoulomb-switch          = 0
-rcoulomb                 = 0.9
+rcoulomb                 = 0.8
 ; Relative dielectric constant for the medium and the reaction field
 epsilon_r                = 1
 epsilon_rf               = 1
@@ -69,7 +69,7 @@ vdw-type                 = cut-off
 vdw-modifier             = Potential-shift
 ; cut-off lengths       
 rvdw-switch              = 0
-rvdw                     = 0.9
+rvdw                     = 0.8
 ; Apply long range dispersion corrections for Energy and Pressure
 DispCorr                 = EnerPres 
 ; Extension of the potential lookup tables beyond the cut-off
