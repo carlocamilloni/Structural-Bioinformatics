@@ -30,8 +30,6 @@ nsteps                   = 250000
 init_step                = 0
 ; Part index is updated automatically on checkpointing (keeps files separate)
 simulation_part          = 1
-; Multiple time-stepping
-mts                      = no
 ; mode for center of mass motion removal
 comm-mode                = Linear
 ; number of steps for center of mass motion removal
