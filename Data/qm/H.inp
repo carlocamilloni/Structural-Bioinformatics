@@ -1,0 +1,57 @@
+&FORCE_EVAL
+  METHOD Quickstep
+  &DFT
+# density functional theory
+# files with Gaussian basis sets
+    BASIS_SET_FILE_NAME BASIS_SET 
+# files with pseudopotentials
+    POTENTIAL_FILE_NAME POTENTIAL
+# local spin density
+    LSD
+# non-local plane-wave basis set
+    &MGRID
+# maximum energy (in Rydberg, the higher the more accurate)
+      CUTOFF 350
+      REL_CUTOFF 50    
+    &END MGRID
+    &SCF
+# criterion to stop the energy calculation
+      EPS_SCF 1.0E-6
+# maximum number of iterations
+      MAX_SCF 100
+# initial guess of the density
+      SCF_GUESS atomic
+    &END SCF
+    &XC
+# XC potential
+      &XC_FUNCTIONAL PBE 
+      &END XC_FUNCTIONAL
+    &END XC
+    &PRINT
+# write the electronic density on file
+      &E_DENSITY_CUBE
+      &END E_DENSITY_CUBE
+    &END PRINT
+  &END DFT
+  &SUBSYS
+    &CELL
+# box size in angstrom
+      ABC 5 5 5
+    &END CELL
+    &TOPOLOGY
+# coordinates file
+      COORD_FILE_NAME H.pdb     
+      COORD_FILE_FORMAT PDB
+    &END TOPOLOGY
+    &KIND H
+# local basis-set for the hydrogen
+      BASIS_SET DZVP-GTH-PBE
+# pseudopotential for the hydrogen
+      POTENTIAL GTH-BLYP-q1
+    &END KIND
+  &END SUBSYS
+&END FORCE_EVAL
+&GLOBAL
+  PROJECT hydrogen
+  PRINT_LEVEL LOW
+&END GLOBAL

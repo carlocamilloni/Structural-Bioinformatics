@@ -1,0 +1,50 @@
+&FORCE_EVAL
+  METHOD Quickstep
+  &DFT
+    BASIS_SET_FILE_NAME BASIS_SET
+    POTENTIAL_FILE_NAME POTENTIAL
+    LSD
+    &MGRID
+      CUTOFF 350
+      REL_CUTOFF 50 
+    &END MGRID
+    &SCF
+      ADDED_MOS 3 
+      EPS_SCF 1.0E-6
+      MAX_SCF 350
+      SCF_GUESS atomic
+      &SMEAR ON
+        METHOD energy_window
+        WINDOW_SIZE 0.02
+      &END SMEAR
+    &END SCF
+    &XC
+      &XC_FUNCTIONAL BLYP 
+      &END XC_FUNCTIONAL
+    &END XC
+    &PRINT
+      &E_DENSITY_CUBE
+      &END E_DENSITY_CUBE
+      &MO 
+        OCCUPATION_NUMBERS 
+      &END MO 
+    &END PRINT
+  &END DFT
+  &SUBSYS
+    &CELL
+      ABC 6  6  6
+    &END CELL
+    &TOPOLOGY
+      COORD_FILE_NAME C.pdb 
+      COORD_FILE_FORMAT PDB
+    &END TOPOLOGY
+    &KIND C
+      BASIS_SET DZVP-GTH-BLYP 
+      POTENTIAL GTH-BLYP-q4
+    &END KIND
+  &END SUBSYS
+&END FORCE_EVAL
+&GLOBAL
+  PROJECT carbon 
+  PRINT_LEVEL LOW 
+&END GLOBAL

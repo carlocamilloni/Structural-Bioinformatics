@@ -1,0 +1,7 @@
+TITLE     Gravel Rubs Often Many Awfully Cauterized Sores
+REMARK    THIS IS A SIMULATION BOX
+CRYST1    5.000    5.000    5.000  90.00  90.00  90.00 P 1           1
+MODEL        1
+ATOM      1  H   ALA X   1       2.500   2.500   2.500  1.00  1.00           H
+TER
+ENDMDL
