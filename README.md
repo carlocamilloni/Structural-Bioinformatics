@@ -3,21 +3,21 @@
 
 This repository includes both the notes and the practicals. Structural Bioinformatics is an elective course for the master degrees in Molecular Biotecnology and Bioinformatics (MBB) and Quantitative Biology (QB). The aim is that of providing a general introduction to different computational approaches related to computational structural biology and biochemistry.
 
-The main topics covered are:
+### The main topics covered are:
 
 1. Structures visualisation and analysis
 2. Molecular Dynamics simulations (including QM)
 3. Biomoleculs Structure Prediction (including docking)
 
-The repository is organised as follow:
+### The repository is organised as follow:
 
     Notes     : Slides of the lectures in the PDF format
     Notebooks : Colab Notebook for the practical
     Data      : Additional files needed for the practicals
 
-Notes:
+### Notes:
 
-Practicals:
+### Practicals:
 
 | Task | Notebook | Topic |
 |:--------:|:-------------:|:--------:|
