@@ -9,11 +9,11 @@ The main topics covered are:
 2. Molecular Dynamics simulations (including QM)
 3. Biomoleculs Structure Prediction (including docking)
 
-Notes: Slides of the lectures in the PDF format
+The repository is organised as follow:
 
-Notebooks: Colab Notebook for the practical
-
-Data: some files needed for the practicals
+    Notes     : Slides of the lectures in the PDF format
+    Notebooks : Colab Notebook for the practical
+    Data      : Additional files needed for the practicals
 
 Lab.01 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/carlocamilloni/Structural-Bioinformatics/blob/main/Notebooks/lab01_intro.ipynb) Warm-up on Colab and Structures Visualisation
 
