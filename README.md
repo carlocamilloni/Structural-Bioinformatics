@@ -15,8 +15,16 @@ The repository is organised as follow:
     Notebooks : Colab Notebook for the practical
     Data      : Additional files needed for the practicals
 
-Lab.01 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/carlocamilloni/Structural-Bioinformatics/blob/main/Notebooks/lab01_intro.ipynb) Warm-up on Colab and Structures Visualisation
+Notes:
 
-Lab.02 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/carlocamilloni/Structural-Bioinformatics/blob/main/Notebooks/lab02_MD.ipynb) Simple Molecular Dynamics simulations
+Practicals:
 
-Lab.02b [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/carlocamilloni/Structural-Bioinformatics/blob/main/Notebooks/lab02b_MDanalysis.ipynb) Analysis of MD simulations using MDanalysis
+| Task | Notebook | Topic |
+| Lab.01 | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/carlocamilloni/Structural-Bioinformatics/blob/main/Notebooks/lab01_intro.ipynb) | Warm-up on Colab and Structures Visualisation |
+| Lab.02 | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/carlocamilloni/Structural-Bioinformatics/blob/main/Notebooks/lab02_MD.ipynb) | Simple Molecular Dynamics simulations |
+| Lab.02b | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/carlocamilloni/Structural-Bioinformatics/blob/main/Notebooks/lab02b_MDanalysis.ipynb) | Analysis of MD simulations using MDanalysis |
+| Lab.03 | | |
+| Lab.04 | | |
+| Lab.05 | | |
+| Lab.06 | | |
+| Lab.07 | | |
