@@ -21,6 +21,14 @@ Structural Bioinformatics is an elective course for the master degrees in Molecu
 | [![Generic badge](https://img.shields.io/badge/1-PDF-<COLOR>.svg)](https://github.com/carlocamilloni/Structural-Bioinformatics/blob/main/Notes/01_StochasticMolecules.pdf) | A Statistical Mechanics view of Biomolecular Dynamics | Updated 2022 |
 | [![Generic badge](https://img.shields.io/badge/2-PDF-<COLOR>.svg)](https://github.com/carlocamilloni/Structural-Bioinformatics/blob/main/Notes/02_StructuralBiology.pdf) | Structural Biology and Structure Visualisation | Updated 2022 |
 | [![Generic badge](https://img.shields.io/badge/3-PDF-<COLOR>.svg)](https://github.com/carlocamilloni/Structural-Bioinformatics/blob/main/Notes/03_MolecularDynamics.pdf) | Molecular Dynamics simulations: force-fields, algorithms, analysis | Updated 2022 |
+| [![Generic badge](https://img.shields.io/badge/4-PDF-<COLOR>.svg)](https://github.com/carlocamilloni/Structural-Bioinformatics/blob/main/Notes/04_EnhancedMD.pdf) | Enhanced Sampling in Molecular Dynamics: Parallel Tempering, Umbrella Sampling and Metadynamics | Updated 2022 |
+| [![Generic badge](https://img.shields.io/badge/5-PDF-<COLOR>.svg)](https://github.com/carlocamilloni/Structural-Bioinformatics/blob/main/Notes/05_MarkovSM.pdf) | Markov State Models: Principles, Algorithms and Applications | Updated 2022, by T. Giorgino |
+| [![Generic badge](https://img.shields.io/badge/6-PDF-<COLOR>.svg)](https://) | Quantum Chemistry, QM/MM, and simplified models | Updated 2022 |
+| [![Generic badge](https://img.shields.io/badge/7-PDF-<COLOR>.svg)](https://) | TBA | TBA |
+| [![Generic badge](https://img.shields.io/badge/8-PDF-<COLOR>.svg)](https://) | TBA | TBA |
+| [![Generic badge](https://img.shields.io/badge/9-PDF-<COLOR>.svg)](https://) | TBA | TBA |
+| [![Generic badge](https://img.shields.io/badge/10-PDF-<COLOR>.svg)](https://) | TBA | TBA |
+| [![Generic badge](https://img.shields.io/badge/11-PDF-<COLOR>.svg)](https://) | TBA | TBA |
 
 ### Practicals:
 
