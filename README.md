@@ -7,11 +7,11 @@ Structural Bioinformatics is an elective course for the master degrees in Molecu
 
 1. Structures visualisation and analysis
 2. Molecular Dynamics simulations (including QM)
-3. Biomoleculs Structure Prediction (including docking)
+3. Biomolecules Structure Prediction (including docking)
 
 ### The repository is organised as follow:
 
-    Notes     : Slides of the lectures in the PDF format
+    Notes     : Slides of the lectures in PDF format
     Notebooks : Colab Notebooks for the practicals
     Data      : Additional files needed for the practicals
 
