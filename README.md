@@ -1,7 +1,7 @@
 # Structural Bioinformatics course by Carlo Camilloni
 ### Department of Biosciences, University of Milano, Italy
 
-This repository includes both the notes and the practicals. Structural Bioinformatics is an elective course for the master degrees in Molecular Biotecnology and Bioinformatics (MBB) and Quantitative Biology (QB). The aim is that of providing a general introduction to different computational approaches related to computational structural biology and biochemistry.
+Structural Bioinformatics is an elective course for the master degrees in Molecular Biotecnology and Bioinformatics (MBB) and Quantitative Biology (QB). The aim is that of providing a general introduction to different computational approaches related to computational structural biology and biochemistry. This repository includes both the notes and the practicals. 
 
 ### The main topics covered are:
 
@@ -12,7 +12,7 @@ This repository includes both the notes and the practicals. Structural Bioinform
 ### The repository is organised as follow:
 
     Notes     : Slides of the lectures in the PDF format
-    Notebooks : Colab Notebook for the practical
+    Notebooks : Colab Notebooks for the practicals
     Data      : Additional files needed for the practicals
 
 ### Notes:
