@@ -16,8 +16,10 @@ Structural Bioinformatics is an elective course for the master degrees in Molecu
     Data      : Additional files needed for the practicals
 
 ### Notes:
-| Lecture | Slides | Topic | Notes |
-|:--------:|:-------------:|:--------:|:--------:|
+| Lecture |  Topic | Notes |
+|:--------:|:-------------:|:--------:|
+| [![Generic badge](https://img.shields.io/badge/<1>-<PDF>-<COLOR>.svg)](https://github.com/carlocamilloni/Structural-Bioinformatics/blob/main/Notes/01_StochasticMolecules.pdf) | A Statistical Mechanics view of Biomolecular Dynamics | Updated 2022 |
+| [![Generic badge](https://img.shields.io/badge/<2>-<PDF>-<COLOR>.svg)](https://github.com/carlocamilloni/Structural-Bioinformatics/blob/main/Notes/01_StochasticMolecules.pdf) | Structural Biology and Structure Visualisation | Updated 2022 |
 
 ### Practicals:
 
