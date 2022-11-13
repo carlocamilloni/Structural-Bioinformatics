@@ -4,5 +4,5 @@ MOLINFO STRUCTURE=reference.pdb
 phi: TORSION ATOMS=@phi-2
 # Compute the backbone dihedral angle psi, defined by atoms N-CA-C-N
 psi: TORSION ATOMS=@psi-2
-# Print the two collective variables on COLVAR file every STRIDE steps
-PRINT ARG=phi,psi FILE=COLVAR STRIDE=1
+# Print the two collective variables on COLVAR-CV.txt file every STRIDE steps
+PRINT ARG=phi,psi FILE=COLVAR-CV.txt STRIDE=1
