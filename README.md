@@ -32,15 +32,15 @@ Structural Bioinformatics is an elective course for the master degrees in Molecu
 
 ### Practicals:
 
-| Task | Notebook | Topic |
-|:--------:|:-------------:|:--------:|
-| Lab.01 | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/carlocamilloni/Structural-Bioinformatics/blob/main/Notebooks/lab01_intro.ipynb) | Warm-up on Colab and Structures Visualisation |
-| Lab.02 | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/carlocamilloni/Structural-Bioinformatics/blob/main/Notebooks/lab02_MD.ipynb) | Simple Molecular Dynamics simulations |
-| Lab.02b | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/carlocamilloni/Structural-Bioinformatics/blob/main/Notebooks/lab02b_MDanalysis.ipynb) | Analysis of MD simulations using MDanalysis |
-| Lab.03 | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/carlocamilloni/Structural-Bioinformatics/blob/main/Notebooks/lab03_MD_enhanced_martini.ipynb) | Enhanced sampling and simplified models |
-| Lab.04 | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]() | Simple DFT simulations |
-| Lab.05 | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]() | TBA |
-| Lab.06 | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]() | TBA |
-| Lab.07 | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]() | TBA |
+| Task | Notebook | Topic | Software |
+|:--------:|:-------------:|:--------:|:------:|
+| Lab.01 | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/carlocamilloni/Structural-Bioinformatics/blob/main/Notebooks/lab01_intro.ipynb) | Warm-up on Colab and Structures Visualisation | VMD |
+| Lab.02 | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/carlocamilloni/Structural-Bioinformatics/blob/main/Notebooks/lab02_MD.ipynb) | Simple Molecular Dynamics simulations | GROMACS |
+| Lab.02b | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/carlocamilloni/Structural-Bioinformatics/blob/main/Notebooks/lab02b_MDanalysis.ipynb) | More analysis of MD simulations | MDanalysis |
+| Lab.03 | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/carlocamilloni/Structural-Bioinformatics/blob/main/Notebooks/lab03_MD_enhanced_martini.ipynb) | Enhanced sampling and simplified models | PLUMED, Martini |
+| Lab.04 | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]() | Simple DFT simulations | CP2K |
+| Lab.05 | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]() | TBA | |
+| Lab.06 | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]() | TBA | |
+| Lab.07 | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]() | TBA | |
 
 
