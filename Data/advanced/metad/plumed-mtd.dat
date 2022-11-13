@@ -17,5 +17,5 @@ metad: METAD ARG=phi,psi ...
   FILE=HILLS.txt GRID_MIN=-pi,-pi GRID_MAX=pi,pi
 
 # Print the two collective variables and the metadynamics bias on COLVAR file every STRIDE steps
-PRINT ARG=phi,psi,metad.bias FILE=COLVAR-MTD.txt STRIDE=1000
+PRINT ARG=phi,psi,metad.bias FILE=COLVAR-MTD.txt STRIDE=500
 
