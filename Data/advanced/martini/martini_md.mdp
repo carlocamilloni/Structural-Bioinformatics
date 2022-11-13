@@ -14,7 +14,7 @@ title                    = Martini
 
 integrator               = md
 dt                       = 0.03  
-nsteps                   = 670000
+nsteps                   = 700000
 nstcomm                  = 100
 comm-grps		 = 
 
@@ -26,7 +26,7 @@ nstenergy                = 100   ; Output frequency for energies to energy file
 nstxtcout                = 1000  ; Output frequency for .xtc file
 xtc_precision            = 100
 xtc-grps                 = 
-energygrps               = DPPC W
+energygrps               = 
 
 cutoff-scheme            = Verlet
 nstlist                  = 20
