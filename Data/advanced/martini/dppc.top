@@ -1,0 +1,8 @@
+#include "martini_v2.1.itp"
+#include "martini_v2.0_DPPC_01.itp"
+
+[ system ]
+DPPC BILAYER SELF-ASSEMBLY
+
+[ molecules ]
+DPPC 128
