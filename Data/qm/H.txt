@@ -29,7 +29,7 @@
     &END XC
     &PRINT
 # write the electronic density on file
-      &E_DENSITY_CUBE
+      &E_DENSITY_CUBE ON
       &END E_DENSITY_CUBE
     &END PRINT
   &END DFT
