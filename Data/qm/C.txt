@@ -23,7 +23,7 @@
       &END XC_FUNCTIONAL
     &END XC
     &PRINT
-      &E_DENSITY_CUBE
+      &E_DENSITY_CUBE ON
       &END E_DENSITY_CUBE
       &MO 
         OCCUPATION_NUMBERS 
