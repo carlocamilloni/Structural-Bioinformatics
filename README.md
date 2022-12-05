@@ -39,7 +39,7 @@ Structural Bioinformatics is an elective course for the master degrees in Molecu
 | Lab.03 | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/carlocamilloni/Structural-Bioinformatics/blob/main/Notebooks/lab03_MD_enhanced_martini.ipynb) | Enhanced sampling and simplified models | PLUMED, Martini |
 | Lab.04 | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/carlocamilloni/Structural-Bioinformatics/blob/main/Notebooks/lab04_QM.ipynb) | Simple DFT simulations | CP2K |
 | Lab.05 | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/carlocamilloni/Structural-Bioinformatics/blob/main/Notebooks/lab05_StructurePred.ipynb) | Protein Structure Prediction | psipred, ColabFold |
-| Lab.06 | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]() | TBA | |
-| Lab.07 | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]() | TBA | |
+| Lab.06 | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]() | Molecular Docking | Autodock VINA |
+| Lab.07 | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]() | Protein Design | |
 
 
