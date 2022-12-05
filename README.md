@@ -28,7 +28,6 @@ Structural Bioinformatics is an elective course for the master degrees in Molecu
 | [![Generic badge](https://img.shields.io/badge/8-PDF-<COLOR>.svg)](https://github.com/carlocamilloni/Structural-Bioinformatics/blob/main/Notes/08_MachineLearning.pdf) | Machine Learning (by T. Giorgino) | Updated 2022 |
 | [![Generic badge](https://img.shields.io/badge/9-PDF-<COLOR>.svg)](https://) | TBA | TBA |
 | [![Generic badge](https://img.shields.io/badge/10-PDF-<COLOR>.svg)](https://) | TBA | TBA |
-| [![Generic badge](https://img.shields.io/badge/11-PDF-<COLOR>.svg)](https://) | TBA | TBA |
 
 ### Practicals:
 
