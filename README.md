@@ -51,4 +51,4 @@ Structural Bioinformatics is an elective course for the master degrees in Molecu
 5. (optional) **QM/MM Methods for Biomolecular Systems**: Senn H.M., Thiel W. (2009) Angew. Chem. Int. 48:1198–1229 https://doi.org/10.1002/anie.200802019
 6. **Toward the solution of the protein structure prediction problem**: Pearce R., Zhang Y. (2021) J. Biol. Chem. 297:100870 https://doi.org/10.1002/anie.200802019
 
-### Exams:
+### Exam:
