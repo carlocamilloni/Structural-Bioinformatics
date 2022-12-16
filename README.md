@@ -26,7 +26,7 @@ Structural Bioinformatics is an elective course for the master degrees in Molecu
 | [![Generic badge](https://img.shields.io/badge/6-PDF-<COLOR>.svg)](https://github.com/carlocamilloni/Structural-Bioinformatics/blob/main/Notes/06_QM_MM_more.pdf) | Quantum Chemistry, QM/MM, and simplified models | Updated 2022 |
 | [![Generic badge](https://img.shields.io/badge/7-PDF-<COLOR>.svg)](https://github.com/carlocamilloni/Structural-Bioinformatics/blob/main/Notes/07_StructurePredictionDocking.pdf) | Structures Prediction and Molecular Docking | Updated 2022 |
 | [![Generic badge](https://img.shields.io/badge/8-PDF-<COLOR>.svg)](https://github.com/carlocamilloni/Structural-Bioinformatics/blob/main/Notes/08_MachineLearning.pdf) | Machine Learning (by T. Giorgino) | Updated 2022 |
-| [![Generic badge](https://img.shields.io/badge/9-PDF-<COLOR>.svg)]([https://](https://github.com/carlocamilloni/Structural-Bioinformatics/blob/main/Notes/09_Integrative_design.pdf)) | Integrative Modelling and Protein Design | Updated 2022 |
+| [![Generic badge](https://img.shields.io/badge/9-PDF-<COLOR>.svg)](https://github.com/carlocamilloni/Structural-Bioinformatics/blob/main/Notes/09_Integrative_design.pdf) | Integrative Modelling and Protein Design | Updated 2022 |
 
 ### Practicals:
 
