@@ -39,7 +39,7 @@ Structural Bioinformatics is an elective course for the master degrees in Molecu
 | Lab.05 | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/carlocamilloni/Structural-Bioinformatics/blob/main/Notebooks/lab04_QM.ipynb) | Simple DFT simulations | CP2K |
 | Lab.06 | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/carlocamilloni/Structural-Bioinformatics/blob/main/Notebooks/lab05_StructurePred.ipynb) | Protein Structure Prediction | psipred, ColabFold |
 | Lab.07 | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/carlocamilloni/Structural-Bioinformatics/blob/main/Notebooks/lab06_docking.ipynb) | Molecular Docking | Autodock VINA |
-| Lab.08 | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]() | Protein Design | |
+| Lab.08 | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/carlocamilloni/Structural-Bioinformatics/blob/main/Notebooks/Design.ipynb) | Protein Design | ColabDesign |
 
 ### Reference Papers:
 
