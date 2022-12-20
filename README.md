@@ -53,7 +53,7 @@ Structural Bioinformatics is an elective course for the master degrees in Molecu
 
 ### Exam:
 
-The exam consists of a powerpoint presentation (max 10 minutes) of a scientific paper from a list provided below, this will be followed by few questions regarding the paper and the methodologies that we have encoutered in the lectures. Finally we will go through one of the Tasks performed in the lab by looking at the materials you produced.
+The exam consists of a powerpoint presentation (max 10 minutes) of a scientific paper from a list provided below, this will be followed by few questions regarding the paper and the methodologies that we have dealt with in the lectures. Finally we will go through one of the Tasks performed in the lab by looking at the materials you produced.
 
 Papers list: (TBA)
 1. 
