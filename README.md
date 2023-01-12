@@ -57,7 +57,7 @@ The following publications are to be considered as part of the course and apart 
 
 The exam consists of a powerpoint presentation (max 10 minutes) of a scientific paper from a list provided below, this will be followed by few questions regarding the paper and the methodologies that we have dealt with in the lectures. Finally we will go through one of the Tasks performed in the lab by looking at the materials you produced.
 
-Papers list: (TBA)
+Papers list: (Updated Jan 2023)
 1. **Structural Basis of AZD9291 Selectivity for EGFR T790M**: Yan X., et al. (2020) J. Med. Chem. 63, 8502−8511 https://dx.doi.org/10.1021/acs.jmedchem.0c00891
 2. **Breathing and Tilting: Mesoscale Simulations Illuminate Influenza Glycoprotein Vulnerabilities**: Casalino L., et al. (2022) ACS Cent. Sci. 8, 1646−1663 https://doi.org/10.1021/acscentsci.2c00981
 3. **Ion Conduction Mechanism as a Fingerprint of Potassium Channels**: Domene C., et al. (2021)  J. Am. Chem. Soc. 143, 12181−12193 https://doi.org/10.1021/jacs.1c04802
