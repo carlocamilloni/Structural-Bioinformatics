@@ -32,7 +32,7 @@ Structural Bioinformatics is an elective course for the master degrees in Molecu
 ### Practicals:
 
 | Task | Notebook | Topic | Software |
-|:--------:|:-------------:|:--------:|:------:|
+|:--------:|:-------------:|:--------|:------:|
 | Lab.01 | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/carlocamilloni/Structural-Bioinformatics/blob/main/Notebooks/lab01_intro.ipynb) | Warm-up on Colab and Structures Visualisation | VMD |
 | Lab.02 | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/carlocamilloni/Structural-Bioinformatics/blob/main/Notebooks/lab02_MD.ipynb) | Simple Molecular Dynamics simulations | GROMACS |
 | Lab.03 | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/carlocamilloni/Structural-Bioinformatics/blob/main/Notebooks/lab03_MDanalysis.ipynb) | More analysis of MD simulations | MDanalysis |
