@@ -40,7 +40,7 @@ Structural Bioinformatics is an elective course for the master degrees in Molecu
 | Lab.05 | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/carlocamilloni/Structural-Bioinformatics/blob/main/Notebooks/lab05_QM.ipynb) | Simple DFT simulations | CP2K |
 | Lab.06 | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/carlocamilloni/Structural-Bioinformatics/blob/main/Notebooks/lab06_StructurePred.ipynb) | Protein Structure Prediction | psipred, ColabFold |
 | Lab.07 | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/carlocamilloni/Structural-Bioinformatics/blob/main/Notebooks/lab07_docking.ipynb) | Molecular Docking | Autodock VINA |
-| Lab.08 | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/carlocamilloni/Structural-Bioinformatics/blob/main/Notebooks/lab_08_design.ipynb) | Protein Design | ColabDesign |
+| Lab.08 | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/carlocamilloni/Structural-Bioinformatics/blob/main/Notebooks/lab08_design.ipynb) | Protein Design | ColabDesign |
 
 ### Reference Papers:
 The following publications are to be considered as part of the course and apart from the optional one should be studied for the exam. The one indicated as optional are left to the students that want to get more into the details of a specific topic.
