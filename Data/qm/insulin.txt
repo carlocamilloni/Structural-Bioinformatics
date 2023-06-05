@@ -39,6 +39,7 @@
     &CELL
       ABC   36.0  36.0  36.0
       PERIODIC NONE
+      SYMMETRY CUBIC
     &END CELL
     &TOPOLOGY
       COORD_FILE_NAME insulin.pdb 
