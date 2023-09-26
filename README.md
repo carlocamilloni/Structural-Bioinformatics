@@ -20,8 +20,8 @@ Structural Bioinformatics is an elective course for the master degrees in Molecu
 | Lecture |  Topic | Notes |
 |:--------:|:-------------|:--------:|
 | [![Generic badge](https://img.shields.io/badge/0-PDF-<COLOR>.svg)](https://github.com/carlocamilloni/Structural-Bioinformatics/blob/main/Notes/00_Intro.pdf) | Introduction: practical information about the course | Updated 2023 |
-| [![Generic badge](https://img.shields.io/badge/1-PDF-<COLOR>.svg)](https://github.com/carlocamilloni/Structural-Bioinformatics/blob/main/Notes/01_StochasticMolecules.pdf) | A Statistical Mechanics view of Biomolecular Dynamics | Updated 2023 |
-| [![Generic badge](https://img.shields.io/badge/2-PDF-<COLOR>.svg)](https://github.com/carlocamilloni/Structural-Bioinformatics/blob/main/Notes/02_StructuralBiology.pdf) | Structural Biology and Structure Visualisation | Updated 2022 |
+| [![Generic badge](https://img.shields.io/badge/1-PDF-<COLOR>.svg)](https://github.com/carlocamilloni/Structural-Bioinformatics/blob/main/Notes/01_StructuralBiology.pdf) | Structural Biology and Structure Visualisation | Updated 2022 |
+| [![Generic badge](https://img.shields.io/badge/2-PDF-<COLOR>.svg)](https://github.com/carlocamilloni/Structural-Bioinformatics/blob/main/Notes/02_StochasticMolecules.pdf) | A Statistical Mechanics view of Biomolecular Dynamics | Updated 2023 |
 | [![Generic badge](https://img.shields.io/badge/3-PDF-<COLOR>.svg)](https://github.com/carlocamilloni/Structural-Bioinformatics/blob/main/Notes/03_MolecularDynamics.pdf) | Molecular Dynamics simulations: force-fields, algorithms, analysis | Updated 2022 |
 | [![Generic badge](https://img.shields.io/badge/4-PDF-<COLOR>.svg)](https://github.com/carlocamilloni/Structural-Bioinformatics/blob/main/Notes/04_EnhancedMD.pdf) | Enhanced Sampling Techniques in MD | Updated 2022 |
 | [![Generic badge](https://img.shields.io/badge/5-PDF-<COLOR>.svg)](https://github.com/carlocamilloni/Structural-Bioinformatics/blob/main/Notes/05_MarkovSM.pdf) | Markov State Models (by [T. Giorgino](https://github.com/tonigi)) | Updated 2022 |
