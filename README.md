@@ -45,15 +45,12 @@ Structural Bioinformatics is an elective course for the master degrees in Molecu
 | T09: Protein Design | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/carlocamilloni/Structural-Bioinformatics/blob/main/Notebooks/t09_design.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/carlocamilloni/Structural-Bioinformatics/blob/main/Notebooks/report_9_design.ipynb) | 2022 |
 
 ### Reference Papers:
-The following publications are to be considered as part of the course and apart from the optional one should be studied for the exam. The one indicated as optional are left to the students that want to get more into the details of a specific topic.
+The following publications are to be considered as part of the course and should be studied for the exam.
 
 1. **Seeing the PDB**: Richardson J.S., Richardson R.C., Goodsell D.S. (2021) J. Biol. Chem. 296:100742 https://doi.org/10.1016/j.jbc.2021.100742
 2. **Biomolecular Simulation**: A Computational Microscope for Molecular Biology: Dror R.O., et al. (2012) Annu. Rev. Biophys. 41:429-452 https://doi.org/10.1146/annurev-biophys-042910-155245
-3. (optional, learn more) **Unsupervised Learning Methods for Molecular Simulation Data**: Glielmo A., et al. (2021) Chem. Rev. 121:9722–9758 https://doi.org/10.1021/acs.chemrev.0c01195
-4. (optional, learn more) **QM/MM Methods for Biomolecular Systems**: Senn H.M., Thiel W. (2009) Angew. Chem. Int. 48:1198–1229 https://doi.org/10.1002/anie.200802019
-5. **Toward the solution of the protein structure prediction problem**: Pearce R., Zhang Y. (2021) J. Biol. Chem. 297:100870 https://doi.org/10.1002/anie.200802019
-6. **Principles for Integrative Structural Biology Studies**: Rout P.M., Sali A. (2019) Cell 177:1384-1403 https://doi.org/10.1016/j.cell.2019.05.016
-7. (optional, learn more) **Principles of protein structural ensemble determination**: Bonomi M., et al. (2017) Curr. Op. Struct. Biol. 42:106–116 http://dx.doi.org/10.1016/j.sbi.2016.12.004
+3. **Toward the solution of the protein structure prediction problem**: Pearce R., Zhang Y. (2021) J. Biol. Chem. 297:100870 https://doi.org/10.1002/anie.200802019
+4. **Principles for Integrative Structural Biology Studies**: Rout P.M., Sali A. (2019) Cell 177:1384-1403 https://doi.org/10.1016/j.cell.2019.05.016
 
 ### Exam:
 
