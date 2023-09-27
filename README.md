@@ -32,17 +32,17 @@ Structural Bioinformatics is an elective course for the master degrees in Molecu
 
 ### Practicals:
 
-| Task | Notebook | Topic | Last Updated |
-|:--------:|:-------------:|:--------|:------:|
-| Lab.01 | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/carlocamilloni/Structural-Bioinformatics/blob/main/Notebooks/lab01_intro.ipynb) | Biomolecular Structures Visualisation | 2022 |
-| Lab.02 | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/carlocamilloni/Structural-Bioinformatics/blob/main/Notebooks/lab01_intro.ipynb) | Warm-up on Colab to perform simple statistical analysis | 2022 |
-| Lab.03 | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/carlocamilloni/Structural-Bioinformatics/blob/main/Notebooks/lab02_MD.ipynb) | Simple Molecular Dynamics simulations | 2022 |
-| Lab.04 | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/carlocamilloni/Structural-Bioinformatics/blob/main/Notebooks/lab03_MDanalysis.ipynb) | More analysis of MD simulations | 2022 |
-| Lab.05 | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/carlocamilloni/Structural-Bioinformatics/blob/main/Notebooks/lab04_MD_enhanced_martini.ipynb) | Enhanced sampling and simplified models | 2022 |
-| Lab.06 | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/carlocamilloni/Structural-Bioinformatics/blob/main/Notebooks/lab05_QM.ipynb) | Simple DFT simulations | 2022 |
-| Lab.07 | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/carlocamilloni/Structural-Bioinformatics/blob/main/Notebooks/lab06_StructurePred.ipynb) | Protein Structure Prediction | 2022 |
-| Lab.08 | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/carlocamilloni/Structural-Bioinformatics/blob/main/Notebooks/lab07_docking.ipynb) | Molecular Docking | 2022 |
-| Lab.09 | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/carlocamilloni/Structural-Bioinformatics/blob/main/Notebooks/lab08_design.ipynb) | Protein Design | 2022 |
+| Task | Instructions | Report | Last Updated |
+|:--------|:-------------:|:-------------:|:------:|
+| T01: Biomolecular Structures Visualisation | [![Generic badge](https://img.shields.io/badge/PDF-<COLOR>.svg)](https://github.com/carlocamilloni/Structural-Bioinformatics/blob/main/Notebooks/SB-Task-1.pdf) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/carlocamilloni/Structural-Bioinformatics/blob/main/Notebooks/lab01_intro.ipynb) | 09/2023 |
+| T02: Basic statistical analysis | | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/carlocamilloni/Structural-Bioinformatics/blob/main/Notebooks/lab01_intro.ipynb) | 2022 |
+| T03: Molecular Dynamics simulations | | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/carlocamilloni/Structural-Bioinformatics/blob/main/Notebooks/lab02_MD.ipynb) | 2022 |
+| T04: More on the analysis of MD simulations | | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/carlocamilloni/Structural-Bioinformatics/blob/main/Notebooks/lab03_MDanalysis.ipynb) | 2022 |
+| T05: Enhanced sampling and simplified models | | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/carlocamilloni/Structural-Bioinformatics/blob/main/Notebooks/lab04_MD_enhanced_martini.ipynb) | 2022 |
+| T06: Basic DFT simulations | | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/carlocamilloni/Structural-Bioinformatics/blob/main/Notebooks/lab05_QM.ipynb) | 2022 |
+| T07: Protein Structure Prediction | | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/carlocamilloni/Structural-Bioinformatics/blob/main/Notebooks/lab06_StructurePred.ipynb) | 2022 |
+| T08: Molecular Docking | | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/carlocamilloni/Structural-Bioinformatics/blob/main/Notebooks/lab07_docking.ipynb) | 2022 |
+| T09: Protein Design | | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/carlocamilloni/Structural-Bioinformatics/blob/main/Notebooks/lab08_design.ipynb) | 2022 |
 
 ### Reference Papers:
 The following publications are to be considered as part of the course and apart from the optional one should be studied for the exam. The one indicated as optional are left to the students that want to get more into the details of a specific topic.
