@@ -16,6 +16,8 @@ Structural Bioinformatics is an elective course for the master degrees in Molecu
     Notebooks : Colab Notebooks for the practicals
     Data      : Additional files needed for the practicals
 
+For each academic year, a snapshot of the repository is saved as a release.
+
 ### Notes:
 | Lecture |  Topic | Last Updated |
 |:--------:|:-------------|:--------:|
