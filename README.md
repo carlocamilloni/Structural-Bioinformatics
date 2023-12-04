@@ -51,7 +51,7 @@ The following publications are to be considered as part of the course and should
 
 1. **Seeing the PDB**: Richardson J.S., Richardson R.C., Goodsell D.S. (2021) J. Biol. Chem. 296:100742 https://doi.org/10.1016/j.jbc.2021.100742
 2. **Biomolecular Simulation**: A Computational Microscope for Molecular Biology: Dror R.O., et al. (2012) Annu. Rev. Biophys. 41:429-452 https://doi.org/10.1146/annurev-biophys-042910-155245
-3. **Toward the solution of the protein structure prediction problem**: Pearce R., Zhang Y. (2021) J. Biol. Chem. 297:100870 https://doi.org/10.1002/anie.200802019
+3. **Toward the solution of the protein structure prediction problem**: Pearce R., Zhang Y. (2021) J. Biol. Chem. 297:100870 [https://doi.org/10.1002/anie.200802019](https://doi.org/10.1016/j.jbc.2021.100870)
 4. **Principles for Integrative Structural Biology Studies**: Rout P.M., Sali A. (2019) Cell 177:1384-1403 https://doi.org/10.1016/j.cell.2019.05.016
 
 ### Exam:
