@@ -58,12 +58,13 @@ The following publications are to be considered as part of the course and should
 
 The exam consists of a powerpoint presentation (max 10 minutes) of a scientific paper from a list provided below, this will be followed by few questions regarding the paper and the methodologies that we have dealt with in the lectures. Finally we will go through one of the Tasks performed in the lab by looking at the materials you produced.
 
-Papers list: (Updated Jan 2023)
-1. **Structural Basis of AZD9291 Selectivity for EGFR T790M**: Yan X., et al. (2020) J. Med. Chem. 63, 8502−8511 https://dx.doi.org/10.1021/acs.jmedchem.0c00891
-2. **Breathing and Tilting: Mesoscale Simulations Illuminate Influenza Glycoprotein Vulnerabilities**: Casalino L., et al. (2022) ACS Cent. Sci. 8, 1646−1663 https://doi.org/10.1021/acscentsci.2c00981
-3. **Ion Conduction Mechanism as a Fingerprint of Potassium Channels**: Domene C., et al. (2021)  J. Am. Chem. Soc. 143, 12181−12193 https://doi.org/10.1021/jacs.1c04802
-4. **Dynamic and Electrostatic Effects on the Reaction Catalyzed by HIV‐1 Protease**: Krzeminśka A., et al. (2016) J. Am. Chem. Soc. 138, 16283−16298 https://dx.doi.org/10.1021/jacs.6b06856
-5. **AI-based structure prediction empowers integrative structural analysis of human nuclear pores**: Mosalaganti S., et al. (2022) Science 376, eabm9506 https://doi.org/10.1126/science.abm9506
-6. **Molecular Basis of Small-Molecule Binding to α‐Synuclein**: Robustelli P., et al. (2022) J. Am. Chem. Soc. 144, 2501−2510 https://doi.org/10.1021/jacs.1c07591
-7. **De novo protein design by deep network hallucination**: Anishchenko I., et al. (2021) Nature 600, 547–552 https://doi.org/10.1038/s41586-021-04184-w
-8. **Multi-eGO: An in silico lens to look into protein aggregation kinetics at atomic resolution**: Scalone E., et al. (2022) PNAS, e2203181119 https://doi.org/10.1073/pnas.2203181119
+Papers list: (Academic Year 2023/2024)
+1. **Ion Conduction Mechanism as a Fingerprint of Potassium Channels**: Domene C., et al. (2021)  J. Am. Chem. Soc. 143, 12181−12193 https://doi.org/10.1021/jacs.1c04802
+2. **The catalytic mechanism of the RNA methyltransferase METTL3**: Corbeski I., et al. (2023) eLife https://doi.org/10.7554/eLife.92537.1
+3. **Molecular Basis of Small-Molecule Binding to α‐Synuclein**: Robustelli P., et al. (2022) J. Am. Chem. Soc. 144, 2501−2510 https://doi.org/10.1021/jacs.1c07591
+4. **Multiscale simulations reveal TDP-43 molecular-level interactions driving condensation**: Ingólfsson, H. I., et al. (2023) Biophys. J. 122, 4370–4381 https://doi.org/10.1016/j.bpj.2023.10.016
+5. **Conformational and oligomeric states of SPOP from small-angle X-ray scattering and molecular dynamics simulations**:
+6. **The molecular structure of IFT-A and IFT-B in anterograde intraflagellar transport trains**: Lacey, S. E., et al. (2023) Nat. Struct. Mol. Biol. 30, 584-593 https://doi.org/10.1038/s41594-022-00905-5
+7. **Discovery and Validation of the Binding Poses of Allosteric Fragment Hits to Protein Tyrosine Phosphatase 1b: From Molecular Dynamics Simulations to X-ray Crystallography**: Greisman J. B., et al. (2023) J. Chem. Inf. Mod. 63: 2644 https://doi.org/10.1021/acs.jcim.3c00236
+  
+
