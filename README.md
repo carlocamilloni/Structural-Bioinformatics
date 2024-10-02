@@ -18,10 +18,15 @@ Structural Bioinformatics is an elective course for the master degrees in Molecu
 
 For each academic year, a snapshot of the repository is saved as a release.
 
+### Academic year 2024-2025:
+This is how the course will work: 
+| Lecture |  Topic | Last Updated |
+|:--------:|:-------------|:--------:|
+| [![Generic badge](https://img.shields.io/badge/0-PDF-<COLOR>.svg)](https://github.com/carlocamilloni/Structural-Bioinformatics/blob/main/Notes/00_Intro.pdf) | Introduction:  information about the course | 09/2024 |
+
 ### Notes:
 | Lecture |  Topic | Last Updated |
 |:--------:|:-------------|:--------:|
-| [![Generic badge](https://img.shields.io/badge/0-PDF-<COLOR>.svg)](https://github.com/carlocamilloni/Structural-Bioinformatics/blob/main/Notes/00_Intro.pdf) | Introduction:  information about the course | 09/2023 |
 | [![Generic badge](https://img.shields.io/badge/1-PDF-<COLOR>.svg)](https://github.com/carlocamilloni/Structural-Bioinformatics/blob/main/Notes/01_StructuralBiology.pdf) | Structural Biology and Structure Visualisation | 09/2023 |
 | [![Generic badge](https://img.shields.io/badge/2-PDF-<COLOR>.svg)](https://github.com/carlocamilloni/Structural-Bioinformatics/blob/main/Notes/02_StochasticMolecules.pdf) | A Statistical Mechanics view of Biomolecular Dynamics | 09/2023 |
 | [![Generic badge](https://img.shields.io/badge/3-PDF-<COLOR>.svg)](https://github.com/carlocamilloni/Structural-Bioinformatics/blob/main/Notes/03_MolecularDynamics.pdf) | Molecular Dynamics simulations: force-fields, algorithms, analysis | 10/2023 |
