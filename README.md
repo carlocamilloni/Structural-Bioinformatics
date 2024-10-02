@@ -22,7 +22,7 @@ For each academic year, a snapshot of the repository is saved as a release.
 This is how the course will work: 
 | Lecture |  Topic | Last Updated |
 |:--------:|:-------------|:--------:|
-| [![Generic badge](https://img.shields.io/badge/0-PDF-<COLOR>.svg)](https://github.com/carlocamilloni/Structural-Bioinformatics/blob/main/Notes/00_Intro.pdf) | Introduction:  information about the course | 09/2024 |
+| [![Generic badge](https://img.shields.io/badge/0-PDF-<COLOR>.svg)](https://github.com/carlocamilloni/Structural-Bioinformatics/blob/main/Notes/00_Intro.pdf) | Introduction:  information about the course | 10/2024 |
 
 ### Notes:
 | Lecture |  Topic | Last Updated |
