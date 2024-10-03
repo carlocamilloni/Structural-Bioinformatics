@@ -60,7 +60,7 @@ The following publications are to be considered as part of the course and should
 
 ### Exam:
 
-The exam consists of a powerpoint presentation (max 10 minutes) of a scientific paper from a list provided below, this will be followed by few questions regarding the paper and the methodologies that we have dealt with in the lectures. Finally we will go through one of the Tasks performed in the lab by looking at the materials you produced.
+The exam consists of a powerpoint presentation (max 10 minutes) of a scientific paper from a list provided below, this will be followed by few questions regarding the paper and the methodologies that we have dealt with in the lectures. Reports for the practicals also contribute to the final grade. For more information check the Introductory slide above.
 
 Papers list: (Academic Year 2023/2024)
 1. **Ion Conduction Mechanism as a Fingerprint of Potassium Channels**: Domene C., et al. (2021)  J. Am. Chem. Soc. 143, 12181−12193 https://doi.org/10.1021/jacs.1c04802
