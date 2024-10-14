@@ -1,45 +1,19 @@
-;
-;	File 'mdout.mdp' was generated
-;	By user: carlo (501)
-;	On host: Carlos-MacBook-Pro-2.local
-;	At date: Tue Apr 28 22:20:51 2015
-;
-
 ; VARIOUS PREPROCESSING OPTIONS
-; Preprocessor information: use cpp syntax.
-; e.g.: -I/home/joe/doe -I/home/mary/roe
-include                  = 
-; e.g.: -DPOSRES -DFLEXIBLE (note these variable names are case sensitive)
+; this tells GROMACS to allow the water to be flexible (i.e. to allow for bond vibrations and angle vibrations) 
 define                   = -DFLEXIBLE
 
 ; RUN CONTROL PARAMETERS
+; this is the STEEPEST DESCENT energy minimization algorithm
 integrator               = steep
-; Start time and timestep in ps
-tinit                    = 0
-dt                       = 0.002
+; run for as long as possible
 nsteps                   = -1 
-; For exact run continuation or redoing part of a run
-init_step                = 0
-; Part index is updated automatically on checkpointing (keeps files separate)
-simulation_part          = 1
-; mode for center of mass motion removal
-comm-mode                = Linear
-; number of steps for center of mass motion removal
-nstcomm                  = 1
-; group(s) for center of mass motion removal
-comm-grps                = 
 
 ; ENERGY MINIMIZATION OPTIONS
 ; Force tolerance and initial step-size
+; go on with the energy minimisation as long as the maximum force on any atom is less than 1000 kJ/(mol nm)
 emtol                    = 1000
+; this an indication about the maximum movement allowed for any atom in nm
 emstep                   = 0.01
-; Max number of iterations in relax-shells
-niter                    = 20
-; Step size (ps^2) for minimization of flexible constraints
-fcstep                   = 0
-; Frequency of steepest descents steps when doing CG
-nstcgsteep               = 1000
-nbfgscorr                = 10
 
 ; OUTPUT CONTROL OPTIONS
 ; Output frequency for coords (x), velocities (v) and forces (f)
@@ -53,12 +27,6 @@ nstenergy                = 1000
 ; Output frequency and precision for .xtc file
 nstxout-compressed       = 1
 compressed-x-precision   = 1000
-; This selects the subset of atoms for the compressed
-; trajectory file. You can select multiple groups. By
-; default, all atoms will be written.
-compressed-x-grps        = 
-; Selection of energy groups
-energygrps               = 
 
 ; NEIGHBORSEARCHING PARAMETERS
 ; cut-off scheme (Verlet: particle based cut-offs, group: using charge groups)
@@ -70,9 +38,6 @@ ns_type                  = grid
 ; Periodic boundary conditions: xyz, no, xy
 pbc                      = xyz
 periodic_molecules       = no
-; Allowed energy error due to the Verlet buffer in kJ/mol/ps per atom,
-; a value of -1 means: use rlist
-verlet-buffer-tolerance  = 0.005
 ; nblist cut-off        
 rlist                    = 0.9
 
@@ -110,26 +75,4 @@ ewald-rtol-lj            = 0.001
 lj-pme-comb-rule         = Geometric
 ewald_geometry           = 3d
 epsilon_surface          = 0
-
-; OPTIONS FOR BONDS    
-constraints              = none
-; Type of constraint algorithm
-constraint-algorithm     = Lincs
-; Do not constrain the start configuration
-continuation             = no
-; Use successive overrelaxation to reduce the number of shake iterations
-Shake-SOR                = no
-; Relative tolerance of shake
-shake-tol                = 0.0001
-; Highest order in the expansion of the constraint coupling matrix
-lincs-order              = 6
-; Number of iterations in the final step of LINCS. 1 is fine for
-; normal simulations, but use 2 to conserve energy in NVE runs.
-; For energy minimization with constraints it should be 4 to 8.
-lincs-iter               = 8
-; Lincs will write a warning to the stderr if in one step a bond
-; rotates over more degrees than
-lincs-warnangle          = 30
-; Convert harmonic bonds to morse potentials
-morse                    = no
 
