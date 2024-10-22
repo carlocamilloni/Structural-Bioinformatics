@@ -14,7 +14,7 @@ title                    = Martini
 
 integrator               = md
 dt                       = 0.03  
-nsteps                   = 670000
+nsteps                   = 700000
 nstcomm                  = 100
 comm-grps		 = 
 
@@ -51,7 +51,7 @@ tau_p                    = 6.0        ; 12.0  ;parrinello-rahman is more stable 
 compressibility          = 3e-4       3e-4
 ref_p                    = 1.0        1.0 
 
-gen_vel                  = yes
+gen_vel                  = no 
 gen_temp                 = 323
 gen_seed                 = 473529
 
