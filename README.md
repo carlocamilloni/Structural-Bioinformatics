@@ -60,15 +60,9 @@ The following publications are to be considered as part of the course and should
 
 ### Exam:
 
-The exam consists of a powerpoint presentation (max 10 minutes) of a scientific paper from a list provided below, this will be followed by few questions regarding the paper and the methodologies that we have dealt with in the lectures. Reports for the practicals also contribute to the final grade. For more information check the Introductory slide above.
+The exam consists of a PowerPoint presentation (max 10 minutes) of a scientific paper from the list below, followed by a few questions on the paper and the methods we have covered in the lectures. Lab reports will also contribute to the final grade. See the introductory slide above for more information.
 
-Papers list: (Academic Year 2023/2024)
-1. **Ion Conduction Mechanism as a Fingerprint of Potassium Channels**: Domene C., et al. (2021)  J. Am. Chem. Soc. 143, 12181−12193 https://doi.org/10.1021/jacs.1c04802
-2. **The catalytic mechanism of the RNA methyltransferase METTL3**: Corbeski I., et al. (2023) eLife https://doi.org/10.7554/eLife.92537.1
-3. **Molecular Basis of Small-Molecule Binding to α‐Synuclein**: Robustelli P., et al. (2022) J. Am. Chem. Soc. 144, 2501−2510 https://doi.org/10.1021/jacs.1c07591
-4. **Multiscale simulations reveal TDP-43 molecular-level interactions driving condensation**: Ingólfsson, H. I., et al. (2023) Biophys. J. 122, 4370–4381 https://doi.org/10.1016/j.bpj.2023.10.016
-5. **Conformational and oligomeric states of SPOP from small-angle X-ray scattering and molecular dynamics simulations**: Thomasen F.E., et al. (2023) eLife 12:e84147 https://doi.org/10.7554/eLife.84147
-6. **The molecular structure of IFT-A and IFT-B in anterograde intraflagellar transport trains**: Lacey, S. E., et al. (2023) Nat. Struct. Mol. Biol. 30, 584-593 https://doi.org/10.1038/s41594-022-00905-5
-7. **Discovery and Validation of the Binding Poses of Allosteric Fragment Hits to Protein Tyrosine Phosphatase 1b: From Molecular Dynamics Simulations to X-ray Crystallography**: Greisman J. B., et al. (2023) J. Chem. Inf. Mod. 63: 2644 https://doi.org/10.1021/acs.jcim.3c00236
+List of papers: (academic year 2024/2025)
+
   
 
