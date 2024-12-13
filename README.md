@@ -34,7 +34,7 @@ This is how the course will work:
 | [![Generic badge](https://img.shields.io/badge/5-PDF-<COLOR>.svg)](https://github.com/carlocamilloni/Structural-Bioinformatics/blob/main/Notes/05_MarkovSM.pdf) | Markov State Models (by [T. Giorgino](https://github.com/giorginolab)) | 11/2024 |
 | [![Generic badge](https://img.shields.io/badge/6-PDF-<COLOR>.svg)](https://github.com/carlocamilloni/Structural-Bioinformatics/blob/main/Notes/06_QM_MM_more.pdf) | Quantum Chemistry, QM/MM, and simplified models | 11/2024 |
 | [![Generic badge](https://img.shields.io/badge/7-PDF-<COLOR>.svg)](https://github.com/carlocamilloni/Structural-Bioinformatics/blob/main/Notes/07_MachineLearning.pdf) | Machine Learning (by [T. Giorgino](https://github.com/giorginolab)) | 12/2024 |
-| [![Generic badge](https://img.shields.io/badge/8-PDF-<COLOR>.svg)](https://github.com/carlocamilloni/Structural-Bioinformatics/blob/main/Notes/08_StructurePredictionDocking.pdf) | Structures Prediction and Molecular Docking | 12/2023 |
+| [![Generic badge](https://img.shields.io/badge/8-PDF-<COLOR>.svg)](https://github.com/carlocamilloni/Structural-Bioinformatics/blob/main/Notes/08_StructurePredictionDocking.pdf) | Structures Prediction and Molecular Docking | 12/2024 |
 | [![Generic badge](https://img.shields.io/badge/9-PDF-<COLOR>.svg)](https://github.com/carlocamilloni/Structural-Bioinformatics/blob/main/Notes/09_Integrative_design.pdf) | Integrative Modelling and Protein Design | 01/2024 |
 
 ### Practicals:
