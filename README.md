@@ -64,5 +64,11 @@ The exam consists of a PowerPoint presentation (max 10 minutes) of a scientific 
 
 List of papers: (academic year 2024/2025)
 
+1. [The mechanisms of catalysis and ligand binding for the SARS-CoV-2 NSP3 macrodomain from neutron and x-ray diffraction at room temperature](https://doi.org/10.1126/sciadv.abo5083), Sci. Adv. 2023
+2. [Calcium-Driven In Silico Inactivation of a Human Olfactory Receptor](https://doi.org/10.1021/acs.jcim.4c00249), J. Chem. Inf 2024
+3. [All-atom simulations elucidate the molecular mechanism underlying RNA-membrane interactions](https://www.biorxiv.org/content/10.1101/2024.11.01.618995), bioRxiv 2024
+4. [Building predictive Markov State Models of ion channel permeation from Molecular Dynamics](https://www.biorxiv.org/content/10.1101/2024.02.22.581422), bioRxiv 2024
+5. [Effective Molecular Dynamics from Neural Network-Based Structure Prediction Models](https://pubs.acs.org/doi/full/10.1021/acs.jctc.2c01027), JCTC 2023
+6. [BindCraft: one-shot design of functional protein binders](https://www.biorxiv.org/content/10.1101/2024.09.30.615802), bioRxiv 2024
   
 
