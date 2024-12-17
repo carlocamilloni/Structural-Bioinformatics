@@ -68,7 +68,8 @@ List of papers: (academic year 2024/2025)
 2. [Calcium-Driven In Silico Inactivation of a Human Olfactory Receptor](https://doi.org/10.1021/acs.jcim.4c00249), J. Chem. Inf 2024
 3. [All-atom simulations elucidate the molecular mechanism underlying RNA-membrane interactions](https://www.biorxiv.org/content/10.1101/2024.11.01.618995), bioRxiv 2024
 4. [Building predictive Markov State Models of ion channel permeation from Molecular Dynamics](https://www.biorxiv.org/content/10.1101/2024.02.22.581422), bioRxiv 2024
-5. [Effective Molecular Dynamics from Neural Network-Based Structure Prediction Models](https://pubs.acs.org/doi/full/10.1021/acs.jctc.2c01027), JCTC 2023
-6. [BindCraft: one-shot design of functional protein binders](https://www.biorxiv.org/content/10.1101/2024.09.30.615802), bioRxiv 2024
+5. [Dissected antiporter modules establish minimal proton-conduction elements of the respiratory complex I](https://www.nature.com/articles/s41467-024-53194-5), Nat. Comm. 2024
+6. [Effective Molecular Dynamics from Neural Network-Based Structure Prediction Models](https://pubs.acs.org/doi/full/10.1021/acs.jctc.2c01027), JCTC 2023
+7. [BindCraft: one-shot design of functional protein binders](https://www.biorxiv.org/content/10.1101/2024.09.30.615802), bioRxiv 2024
   
 
