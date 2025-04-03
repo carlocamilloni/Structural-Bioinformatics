@@ -6,8 +6,8 @@ Structural Bioinformatics is an elective course for the Master programmes Molecu
 ### The main topics covered are:
 
 1. Structures visualisation and analysis
-2. Molecular Dynamics simulations
-3. Biomolecules Structure Prediction and Protein Design
+2. Molecular dynamics simulations
+3. Biomolecules structure prediction and design
 
 ### The repository is organised as follow:
 
