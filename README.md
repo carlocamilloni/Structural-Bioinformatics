@@ -7,8 +7,7 @@ Structural Bioinformatics is an elective course for the Master programmes Molecu
 
 1. Structures visualisation and analysis
 2. Molecular Dynamics simulations (including QM)
-3. Biomolecules Structure Prediction (including docking)
-4. Advanced topics: integrative structural biology and protein design
+3. Biomolecules Structure Prediction (including docking, integrative structural biology) and Protein Design
 
 ### The repository is organised as follow:
 
