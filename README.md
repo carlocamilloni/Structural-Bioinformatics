@@ -1,7 +1,7 @@
 # Structural Bioinformatics
 **Carlo Camilloni, Department of Biosciences, University of Milano, Italy**
 
-Structural Bioinformatics is an elective course for the Master programmes Molecular Biotechnology and Bioinformatics (MBB) and Quantitative Biology (QB). The aim is to provide a general introduction to different computational approaches enable the modelling and design of biomolecular structures, dynamics and function. This repository contains both the lecture notes and the laboratory exercises. News about the course will be published on the ARIEL website.
+Structural Bioinformatics is an elective course offered within the Master’s programmes in Molecular Biotechnology and Bioinformatics (MBB) and Quantitative Biology (QB). The course introduces a range of computational approaches for modeling and designing biomolecular structures, dynamics, and functions. This repository provides both lecture notes and laboratory exercises, while course updates and announcements will be posted on the ARIEL platform.
 
 ### The main topics covered are:
 
