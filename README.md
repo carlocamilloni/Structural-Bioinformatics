@@ -52,7 +52,7 @@ This is how the course will work:
 | T09: Protein Design | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/carlocamilloni/Structural-Bioinformatics/blob/main/Notebooks/t09_design.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/carlocamilloni/Structural-Bioinformatics/blob/main/Notebooks/report_9_design.ipynb) | 12/2024 |
 
 ### Reference Papers:
-The following publications are to be considered as part of the course and should be studied for the exam.
+The following publications are to be considered as part of the course and should be read before the exam.
 
 1. **Seeing the PDB**: Richardson J.S., Richardson R.C., Goodsell D.S. (2021) J. Biol. Chem. 296:100742 https://doi.org/10.1016/j.jbc.2021.100742
 2. **Biomolecular Simulation**: A Computational Microscope for Molecular Biology: Dror R.O., et al. (2012) Annu. Rev. Biophys. 41:429-452 https://doi.org/10.1146/annurev-biophys-042910-155245
