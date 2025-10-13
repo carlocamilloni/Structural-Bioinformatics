@@ -28,7 +28,7 @@ This is how the course will work:
 | Lecture |  Topic | Last Updated |
 |:--------:|:-------------|:--------:|
 | [![Generic badge](https://img.shields.io/badge/1-PDF-<COLOR>.svg)](https://github.com/carlocamilloni/Structural-Bioinformatics/blob/main/Notes/01_StructuralBiology.pdf) | Structural Biology and Structure Visualisation | 10/2025 |
-| [![Generic badge](https://img.shields.io/badge/2-PDF-<COLOR>.svg)](https://github.com/carlocamilloni/Structural-Bioinformatics/blob/main/Notes/02_StochasticMolecules.pdf) | A Statistical Mechanics view of Biomolecular Dynamics | 10/2024 |
+| [![Generic badge](https://img.shields.io/badge/2-PDF-<COLOR>.svg)](https://github.com/carlocamilloni/Structural-Bioinformatics/blob/main/Notes/02_StochasticMolecules.pdf) | A Statistical Mechanics view of Biomolecular Dynamics | 10/2025 |
 | [![Generic badge](https://img.shields.io/badge/3-PDF-<COLOR>.svg)](https://github.com/carlocamilloni/Structural-Bioinformatics/blob/main/Notes/07_MachineLearning.pdf) | Machine Learning (by [T. Giorgino](https://github.com/giorginolab)) | 12/2024 |
 | [![Generic badge](https://img.shields.io/badge/4-PDF-<COLOR>.svg)](https://github.com/carlocamilloni/Structural-Bioinformatics/blob/main/Notes/08_StructurePredictionDocking.pdf) | Structures Prediction and Molecular Docking | 12/2024 |
 | [![Generic badge](https://img.shields.io/badge/5-PDF-<COLOR>.svg)](https://github.com/carlocamilloni/Structural-Bioinformatics/blob/main/Notes/03_MolecularDynamics.pdf) | Molecular Dynamics simulations: force-fields, algorithms, analysis | 11/2024 |
