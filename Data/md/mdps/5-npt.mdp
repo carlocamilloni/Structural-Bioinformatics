@@ -23,7 +23,7 @@ init_step                = 0
 ; Part index is updated automatically on checkpointing (keeps files separate)
 simulation_part          = 1
 ; mode for center of mass motion removal
-comm-mode                = none 
+comm-mode                = linear 
 ; number of steps for center of mass motion removal
 nstcomm                  = 100
 ; group(s) for center of mass motion removal
