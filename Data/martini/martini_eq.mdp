@@ -45,9 +45,9 @@ tcoupl                   = v-rescale
 tc-grps                  = DPPC W
 tau_t                    = 1.0  1.0 
 ref_t                    = 323 323 
-Pcoupl                   = berendsen  ; parrinello-rahman
+Pcoupl                   = parrinello-rahman
 Pcoupltype               = semiisotropic
-tau_p                    = 6.0        ; 12.0  ;parrinello-rahman is more stable with larger tau-p, DdJ, 20130422
+tau_p                    = 12.0  ;parrinello-rahman is more stable with larger tau-p, DdJ, 20130422
 compressibility          = 3e-4       3e-4
 ref_p                    = 1.0        1.0 
 

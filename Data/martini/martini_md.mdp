@@ -26,7 +26,7 @@ nstenergy                = 100   ; Output frequency for energies to energy file
 nstxtcout                = 200  ; Output frequency for .xtc file
 xtc_precision            = 100
 xtc-grps                 = 
-energygrps               = 
+energygrps               = DPPC W
 
 cutoff-scheme            = Verlet
 nstlist                  = 20
