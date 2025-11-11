@@ -1,0 +1,19 @@
+;;;;; Martini 3 - Database of solvents
+;;;;;  
+;;;;; File updated on 2021-03-29
+;;;;;
+;;;;; Version: 3.0.0_v1
+;;;;;                                                                                     
+;;;;; This collection contains the models included as part of the Martini 3 publication: 
+;;;;;   PCT Souza, et al., Nat. Methods, 2021. DOI: 10.1038/s41592-021-01098-3 
+
+;;;;;; WATER (representing 4 molecules)
+
+[ moleculetype ]
+; molname  	nrexcl
+  W  	    	1
+
+[ atoms ]
+;id     type    resnr   residu  atom    cgnr    charge
+ 1      W      1        W       W      1       0
+
