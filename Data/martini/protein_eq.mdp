@@ -84,13 +84,13 @@ tcoupl                   = v-rescale
 tc-grps                  = SYSTEM
 tau_t                    = 1.0   
 ref_t                    = 310 
-Pcoupl                   = berendsen 
+Pcoupl                   = no 
 Pcoupltype               = isotropic
 tau_p                    = 4.0   ;parrinello-rahman is more stable with larger tau-p, DdJ, 20130422
 compressibility          = 3e-4
 ref_p                    = 1.0
 
-gen_vel                  = no
+gen_vel                  = yes
 gen_temp                 = 310
 gen_seed                 = 473529
 
