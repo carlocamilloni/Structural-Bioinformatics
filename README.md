@@ -63,6 +63,15 @@ The following publications are to be considered as part of the course and should
 The exam consists of a PowerPoint presentation (max 10 minutes) of a scientific paper from the list below, followed by a few questions on the paper and the methods we have covered in the lectures. Lab reports will also contribute to the final grade. See the introductory slide above for more information.
 
 List of papers: (academic year 2025/2026)
+- A cryptic pocket in CB1 drives peripheral and functional selectivity. [https://doi.org/10.1038/s41586-025-08618-7]
+- Rapid simulation of glycoprotein structures by grafting and steric exclusion of glycan conformer libraries. [https://doi.org/10.1016/j.cell.2024.01.034]
+- Accurate model and ensemble refinement using cryo-electron microscopy maps and Bayesian inference. [https://doi.org/10.1371/journal.pcbi.1012180]
+- Molecular Modeling and Molecular Dynamics Simulation of a Packed and Intact Bacterial Microcompartment. [https://pubs.acs.org/doi/10.1021/acs.jpcb.5c05178]
+- Dynamical buffering of reconfiguration dynamics in intrinsically disordered proteins. [https://www.biorxiv.org/content/10.1101/2025.10.12.681911v2]
+- Hydrolysis of the Urethane Bond Catalyzed by Pseudomonas sp. MIS38 Lipase: A QM/MM Mechanistic Insight. [https://pubs.acs.org/doi/10.1021/acscatal.5c03228]
+- Curvature Footprints of Transmembrane Proteins in Simulations with the Martini Force Field. [https://pubs.acs.org/doi/10.1021/acs.jpcb.4c01385]
+- Folding-upon-binding pathways of an intrinsically disordered protein from a deep Markov state model. [https://doi.org/10.1073/pnas.2313360121]
+- De novo design of pH-responsive self-assembling helical protein filaments. [https://www.nature.com/articles/s41565-024-01641-1]
 
 
   
