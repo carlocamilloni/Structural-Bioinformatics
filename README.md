@@ -37,7 +37,7 @@ For each academic year, a snapshot of the repository is saved as a release/tag (
 
 | # | Topic | Notes | Last Updated |
 |:--:|:-------------|:--------:|:--------:|
-| 0 | Introduction: information about the course | [![Generic badge](https://img.shields.io/badge/PDF-lightgrey.svg)](https://github.com/carlocamilloni/Structural-Bioinformatics/blob/main/Notes/00_Intro.pdf) | 10/2025 |
+| 0 | Introduction: information about the course | [![Generic badge](https://img.shields.io/badge/PDF-lightgrey.svg)](https://github.com/carlocamilloni/Structural-Bioinformatics/blob/main/Notes/00_Intro.pdf) | 09/2026 |
 | 1 | Structural Biology and Structure Visualisation | [![Generic badge](https://img.shields.io/badge/PDF-blue.svg)](https://github.com/carlocamilloni/Structural-Bioinformatics/blob/main/Notes/01_StructuralBiology.pdf) | 10/2025 |
 | 2 | A Statistical Mechanics view of Biomolecular Dynamics | [![Generic badge](https://img.shields.io/badge/PDF-blue.svg)](https://github.com/carlocamilloni/Structural-Bioinformatics/blob/main/Notes/02_StochasticMolecules.pdf) | 10/2025 |
 | 3 | Machine Learning (by [T. Giorgino](https://github.com/giorginolab)) | [![Generic badge](https://img.shields.io/badge/PDF-blue.svg)](https://github.com/carlocamilloni/Structural-Bioinformatics/blob/main/Notes/07_MachineLearning.pdf) | 10/2025 |
