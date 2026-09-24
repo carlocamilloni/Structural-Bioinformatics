@@ -80,6 +80,8 @@ To be announced
 ### Previous years
 
 Each past edition of the course is preserved as a git tag:
+- [2022/2023](https://github.com/carlocamilloni/Structural-Bioinformatics/tree/2022/2023)
+- [2023/2024](https://github.com/carlocamilloni/Structural-Bioinformatics/tree/2023/2024)
 - [2024/2025](https://github.com/carlocamilloni/Structural-Bioinformatics/tree/2024/2025)
 - [2025/2026](https://github.com/carlocamilloni/Structural-Bioinformatics/tree/2025/2026)
 
