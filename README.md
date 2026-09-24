@@ -1,7 +1,11 @@
 # Structural Bioinformatics
+
 **Carlo Camilloni, Department of Biosciences, University of Milano, Italy**
 
-Structural Bioinformatics is an elective course offered within the Master’s programmes in Molecular Biotechnology and Bioinformatics (MBB) and Quantitative Biology (QB). The course introduces a range of computational approaches for modeling and designing biomolecular structures, dynamics, and functions. This repository provides both lecture notes and laboratory exercises, while course updates and announcements will be posted on the ARIEL platform.
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/carlocamilloni/Structural-Bioinformatics/blob/main/Notebooks/t01_VMD.pdf)
+
+Structural Bioinformatics is an elective course offered within the Master's programmes in Molecular Biotechnology and Bioinformatics (MBB) and Quantitative Biology (QB). The course introduces a range of computational approaches for modeling and designing biomolecular structures, dynamics, and functions. This repository provides both lecture notes and laboratory exercises, while course updates and announcements will be posted on the [ARIEL platform](https://ariel.unimi.it/).
 
 ### The main topics covered are:
 
@@ -10,38 +14,45 @@ Structural Bioinformatics is an elective course offered within the Master’s pr
 3. Molecular dynamics simulations
 4. Integrative modelling and protein design
 
-### The repository is organised as follow:
+### Getting started
+
+All practicals run as Google Colab notebooks, so no local installation is required — just a Google account. Click any "Open in Colab" badge below to launch a notebook directly.
+
+If you prefer to run a practical locally, you will need [VMD](https://www.ks.uci.edu/Research/vmd/) for T01 and a working `conda`/`pip` environment with the packages imported at the top of each notebook (typically `numpy`, `matplotlib`, `MDAnalysis`, and `biopython`). The `Data/` folder contains all input files referenced by the notebooks.
+
+### Repository structure
 
     Notes     : Slides of the lectures in PDF format
-    Notebooks : Colab Notebooks for the practicals
-    Data      : Additional files needed for the practicals
+    Notebooks : Colab Notebooks for the practicals (t0X_*.ipynb) and their report templates (report_X_*.ipynb)
+    Data      : Additional input files needed for the practicals
+        docking/ : protein and ligand structures for the docking exercise (T04)
+        martini/ : Martini coarse-grained force field and topology files (T07)
+        md/      : GROMACS .mdp parameter files and PLUMED metadynamics inputs (T05–T07)
+        qm/      : small-molecule structures and reference output for the QM exercise (T08)
+        stats/   : datasets for the statistical analysis exercise (T02)
 
-For each academic year, a snapshot of the repository is saved as a release.
+For each academic year, a snapshot of the repository is saved as a release/tag (see [Previous years](#previous-years) below).
 
-### Academic year 2025-2026:
-This is how the course will work: 
-| Lecture |  Topic | Last Updated |
-|:--------:|:-------------|:--------:|
-| [![Generic badge](https://img.shields.io/badge/0-PDF-<COLOR>.svg)](https://github.com/carlocamilloni/Structural-Bioinformatics/blob/main/Notes/00_Intro.pdf) | Introduction:  information about the course | 10/2025 |
+### Academic year 2026-2027
 
-### Notes:
-| Lecture |  Topic | Last Updated |
-|:--------:|:-------------|:--------:|
-| [![Generic badge](https://img.shields.io/badge/1-PDF-<COLOR>.svg)](https://github.com/carlocamilloni/Structural-Bioinformatics/blob/main/Notes/01_StructuralBiology.pdf) | Structural Biology and Structure Visualisation | 10/2025 |
-| [![Generic badge](https://img.shields.io/badge/2-PDF-<COLOR>.svg)](https://github.com/carlocamilloni/Structural-Bioinformatics/blob/main/Notes/02_StochasticMolecules.pdf) | A Statistical Mechanics view of Biomolecular Dynamics | 10/2025 |
-| [![Generic badge](https://img.shields.io/badge/3-PDF-<COLOR>.svg)](https://github.com/carlocamilloni/Structural-Bioinformatics/blob/main/Notes/07_MachineLearning.pdf) | Machine Learning (by [T. Giorgino](https://github.com/giorginolab)) | 10/2025 |
-| [![Generic badge](https://img.shields.io/badge/4-PDF-<COLOR>.svg)](https://github.com/carlocamilloni/Structural-Bioinformatics/blob/main/Notes/08_StructurePredictionDocking.pdf) | Structures Prediction and Molecular Docking | 10/2025 |
-| [![Generic badge](https://img.shields.io/badge/5-PDF-<COLOR>.svg)](https://github.com/carlocamilloni/Structural-Bioinformatics/blob/main/Notes/03_MolecularDynamics.pdf) | Molecular Dynamics simulations: force-fields, algorithms, analysis | 11/2025 |
-| [![Generic badge](https://img.shields.io/badge/6-PDF-<COLOR>.svg)](https://github.com/carlocamilloni/Structural-Bioinformatics/blob/main/Notes/04_EnhancedMD.pdf) | Enhanced Sampling Techniques in MD | 11/2025 |
-| [![Generic badge](https://img.shields.io/badge/7-PDF-<COLOR>.svg)](https://github.com/carlocamilloni/Structural-Bioinformatics/blob/main/Notes/05_MarkovSM.pdf) | Markov State Models (by [T. Giorgino](https://github.com/giorginolab)) | 11/2025 |
-| [![Generic badge](https://img.shields.io/badge/8-PDF-<COLOR>.svg)](https://github.com/carlocamilloni/Structural-Bioinformatics/blob/main/Notes/06_QM_MM_more.pdf) | Quantum Chemistry, QM/MM, and simplified models | 12/2025 |
-| [![Generic badge](https://img.shields.io/badge/9-PDF-<COLOR>.svg)](https://github.com/carlocamilloni/Structural-Bioinformatics/blob/main/Notes/09_Integrative_design.pdf) | Integrative Modelling and Protein Design | 12/2025 |
+| # | Topic | Notes | Last Updated |
+|:--:|:-------------|:--------:|:--------:|
+| 0 | Introduction: information about the course | [![Generic badge](https://img.shields.io/badge/PDF-lightgrey.svg)](https://github.com/carlocamilloni/Structural-Bioinformatics/blob/main/Notes/00_Intro.pdf) | 10/2025 |
+| 1 | Structural Biology and Structure Visualisation | [![Generic badge](https://img.shields.io/badge/PDF-blue.svg)](https://github.com/carlocamilloni/Structural-Bioinformatics/blob/main/Notes/01_StructuralBiology.pdf) | 10/2025 |
+| 2 | A Statistical Mechanics view of Biomolecular Dynamics | [![Generic badge](https://img.shields.io/badge/PDF-blue.svg)](https://github.com/carlocamilloni/Structural-Bioinformatics/blob/main/Notes/02_StochasticMolecules.pdf) | 10/2025 |
+| 3 | Machine Learning (by [T. Giorgino](https://github.com/giorginolab)) | [![Generic badge](https://img.shields.io/badge/PDF-blue.svg)](https://github.com/carlocamilloni/Structural-Bioinformatics/blob/main/Notes/07_MachineLearning.pdf) | 10/2025 |
+| 4 | Structures Prediction and Molecular Docking | [![Generic badge](https://img.shields.io/badge/PDF-blue.svg)](https://github.com/carlocamilloni/Structural-Bioinformatics/blob/main/Notes/08_StructurePredictionDocking.pdf) | 10/2025 |
+| 5 | Molecular Dynamics simulations: force-fields, algorithms, analysis | [![Generic badge](https://img.shields.io/badge/PDF-blue.svg)](https://github.com/carlocamilloni/Structural-Bioinformatics/blob/main/Notes/03_MolecularDynamics.pdf) | 11/2025 |
+| 6 | Enhanced Sampling Techniques in MD | [![Generic badge](https://img.shields.io/badge/PDF-blue.svg)](https://github.com/carlocamilloni/Structural-Bioinformatics/blob/main/Notes/04_EnhancedMD.pdf) | 11/2025 |
+| 7 | Markov State Models (by [T. Giorgino](https://github.com/giorginolab)) | [![Generic badge](https://img.shields.io/badge/PDF-blue.svg)](https://github.com/carlocamilloni/Structural-Bioinformatics/blob/main/Notes/05_MarkovSM.pdf) | 11/2025 |
+| 8 | Quantum Chemistry, QM/MM, and simplified models | [![Generic badge](https://img.shields.io/badge/PDF-blue.svg)](https://github.com/carlocamilloni/Structural-Bioinformatics/blob/main/Notes/06_QM_MM_more.pdf) | 12/2025 |
+| 9 | Integrative Modelling and Protein Design | [![Generic badge](https://img.shields.io/badge/PDF-blue.svg)](https://github.com/carlocamilloni/Structural-Bioinformatics/blob/main/Notes/09_Integrative_design.pdf) | 12/2025 |
 
-### Practicals:
+### Practicals
 
-| Task | Instructions | Report a | Last Updated |
+| Task | Instructions | Report | Last Updated |
 |:--------|:-------------:|:-------------:|:------:|
-| T01: Biomolecular Structures Visualisation | [![Generic badge](https://img.shields.io/badge/PDF-<COLOR>.svg)](https://github.com/carlocamilloni/Structural-Bioinformatics/blob/main/Notebooks/t01_VMD.pdf) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/carlocamilloni/Structural-Bioinformatics/blob/main/Notebooks/report_1a_vmd.ipynb) | 10/2025 |
+| T01: Biomolecular Structures Visualisation | [![Generic badge](https://img.shields.io/badge/PDF-lightgrey.svg)](https://github.com/carlocamilloni/Structural-Bioinformatics/blob/main/Notebooks/t01_VMD.pdf) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/carlocamilloni/Structural-Bioinformatics/blob/main/Notebooks/report_1a_vmd.ipynb) | 10/2025 |
 | T02: Basic statistical analysis | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/carlocamilloni/Structural-Bioinformatics/blob/main/Notebooks/t02_intro_stat.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/carlocamilloni/Structural-Bioinformatics/blob/main/Notebooks/report_2_stat.ipynb) | 10/2025 |
 | T03: Protein Structure Prediction | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/carlocamilloni/Structural-Bioinformatics/blob/main/Notebooks/t07_StructurePred.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/carlocamilloni/Structural-Bioinformatics/blob/main/Notebooks/report_7_StructurePred.ipynb) | 10/2025 |
 | T04: Molecular Docking | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/carlocamilloni/Structural-Bioinformatics/blob/main/Notebooks/t08_docking.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/carlocamilloni/Structural-Bioinformatics/blob/main/Notebooks/report_8_docking.ipynb) | 10/2025 |
@@ -51,28 +62,27 @@ This is how the course will work:
 | T08: Basic DFT simulations | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/carlocamilloni/Structural-Bioinformatics/blob/main/Notebooks/t06_QM.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/carlocamilloni/Structural-Bioinformatics/blob/main/Notebooks/report_6_QM.ipynb) | 11/2025 |
 | T09: Protein Design | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/carlocamilloni/Structural-Bioinformatics/blob/main/Notebooks/t09_design.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/carlocamilloni/Structural-Bioinformatics/blob/main/Notebooks/report_9_design.ipynb) | 11/2025 |
 
-### Reference Papers:
+### Reference Papers
+
 The following publications are to be considered as part of the course and should be read before the exam.
 
-1. **Seeing the PDB**: Richardson J.S., Richardson R.C., Goodsell D.S. (2021) J. Biol. Chem. 296:100742 https://doi.org/10.1016/j.jbc.2021.100742
-2. **Biomolecular Simulation**: A Computational Microscope for Molecular Biology: Dror R.O., et al. (2012) Annu. Rev. Biophys. 41:429-452 https://doi.org/10.1146/annurev-biophys-042910-155245
-3. **Toward the solution of the protein structure prediction problem**: Pearce R., Zhang Y. (2021) J. Biol. Chem. 297:100870 [https://doi.org/10.1002/anie.200802019](https://doi.org/10.1016/j.jbc.2021.100870)
+1. **Seeing the PDB**: Richardson J.S., Richardson R.C., Goodsell D.S. (2021) J. Biol. Chem. 296:100742. https://doi.org/10.1016/j.jbc.2021.100742
+2. **Biomolecular Simulation: A Computational Microscope for Molecular Biology**: Dror R.O., et al. (2012) Annu. Rev. Biophys. 41:429-452. https://doi.org/10.1146/annurev-biophys-042910-155245
+3. **Toward the solution of the protein structure prediction problem**: Pearce R., Zhang Y. (2021) J. Biol. Chem. 297:100870. https://doi.org/10.1016/j.jbc.2021.100870
 
-### Exam:
+### Exam
 
 The exam consists of a PowerPoint presentation (max 10 minutes) of a scientific paper from the list below, followed by a few questions on the paper and the methods we have covered in the lectures. Lab reports will also contribute to the final grade. See the introductory slide above for more information.
 
-List of papers: (academic year 2025/2026)
-- A cryptic pocket in CB1 drives peripheral and functional selectivity. [https://doi.org/10.1038/s41586-025-08618-7]
-- Rapid simulation of glycoprotein structures by grafting and steric exclusion of glycan conformer libraries. [https://doi.org/10.1016/j.cell.2024.01.034]
-- Accurate model and ensemble refinement using cryo-electron microscopy maps and Bayesian inference. [https://doi.org/10.1371/journal.pcbi.1012180]
-- Molecular Modeling and Molecular Dynamics Simulation of a Packed and Intact Bacterial Microcompartment. [https://pubs.acs.org/doi/10.1021/acs.jpcb.5c05178]
-- Dynamical buffering of reconfiguration dynamics in intrinsically disordered proteins. [https://www.biorxiv.org/content/10.1101/2025.10.12.681911v2]
-- Hydrolysis of the Urethane Bond Catalyzed by Pseudomonas sp. MIS38 Lipase: A QM/MM Mechanistic Insight. [https://pubs.acs.org/doi/10.1021/acscatal.5c03228]
-- Curvature Footprints of Transmembrane Proteins in Simulations with the Martini Force Field. [https://pubs.acs.org/doi/10.1021/acs.jpcb.4c01385]
-- Folding-upon-binding pathways of an intrinsically disordered protein from a deep Markov state model. [https://doi.org/10.1073/pnas.2313360121]
-- De novo design of pH-responsive self-assembling helical protein filaments. [https://www.nature.com/articles/s41565-024-01641-1]
+List of papers (academic year 2026/2027):
+To be announced 
 
+### Previous years
 
-  
+Each past edition of the course is preserved as a git tag:
+- [2024/2025](https://github.com/carlocamilloni/Structural-Bioinformatics/tree/2024/2025)
+- [2025/2026](https://github.com/carlocamilloni/Structural-Bioinformatics/tree/2025/2026)
 
+### License & contact
+
+This repository is released under the [MIT License](LICENSE). For questions about the course, please use the ARIEL platform's discussion board or contact Carlo Camilloni directly.
