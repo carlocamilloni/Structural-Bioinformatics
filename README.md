@@ -35,18 +35,18 @@ For each academic year, a snapshot of the repository is saved as a release/tag (
 
 ### Academic year 2026-2027
 
-| # | Topic | Notes | Last Updated |
-|:--:|:-------------|:--------:|:--------:|
-| 0 | Introduction: information about the course | [![Generic badge](https://img.shields.io/badge/PDF-lightgrey.svg)](https://github.com/carlocamilloni/Structural-Bioinformatics/blob/main/Notes/00_Intro.pdf) | 09/2026 |
-| 1 | Structural Biology and Structure Visualisation | [![Generic badge](https://img.shields.io/badge/PDF-blue.svg)](https://github.com/carlocamilloni/Structural-Bioinformatics/blob/main/Notes/01_StructuralBiology.pdf) | 10/2025 |
-| 2 | A Statistical Mechanics view of Biomolecular Dynamics | [![Generic badge](https://img.shields.io/badge/PDF-blue.svg)](https://github.com/carlocamilloni/Structural-Bioinformatics/blob/main/Notes/02_StochasticMolecules.pdf) | 10/2025 |
-| 3 | Machine Learning (by [T. Giorgino](https://github.com/giorginolab)) | [![Generic badge](https://img.shields.io/badge/PDF-blue.svg)](https://github.com/carlocamilloni/Structural-Bioinformatics/blob/main/Notes/07_MachineLearning.pdf) | 10/2025 |
-| 4 | Structures Prediction and Molecular Docking | [![Generic badge](https://img.shields.io/badge/PDF-blue.svg)](https://github.com/carlocamilloni/Structural-Bioinformatics/blob/main/Notes/08_StructurePredictionDocking.pdf) | 10/2025 |
-| 5 | Molecular Dynamics simulations: force-fields, algorithms, analysis | [![Generic badge](https://img.shields.io/badge/PDF-blue.svg)](https://github.com/carlocamilloni/Structural-Bioinformatics/blob/main/Notes/03_MolecularDynamics.pdf) | 11/2025 |
-| 6 | Enhanced Sampling Techniques in MD | [![Generic badge](https://img.shields.io/badge/PDF-blue.svg)](https://github.com/carlocamilloni/Structural-Bioinformatics/blob/main/Notes/04_EnhancedMD.pdf) | 11/2025 |
+| # | Topic | Slides | Notes | Last Updated |
+|:--:|:-------------|:--------:|:--------:|:--------:|
+| 0 | Introduction: information about the course | [![Generic badge](https://img.shields.io/badge/PDF-lightgrey.svg)](https://github.com/carlocamilloni/Structural-Bioinformatics/blob/main/Notes/00_Intro.pdf) | | 09/2026 |
+| 1 | Structural Biology beyond static structures | [![Generic badge](https://img.shields.io/badge/PDF-blue.svg)](https://github.com/carlocamilloni/Structural-Bioinformatics/blob/main/Notes/01_StructuralBiology.pdf) | [![Generic badge](https://img.shields.io/badge/PDF-blue.svg)](https://github.com/carlocamilloni/Structural-Bioinformatics/blob/main/Notes/01_StructuralBiology_notes.pdf) | 09/2026 |
+| 2 | A Statistical Mechanics view of Biomolecular Dynamics | [![Generic badge](https://img.shields.io/badge/PDF-blue.svg)](https://github.com/carlocamilloni/Structural-Bioinformatics/blob/main/Notes/02_StochasticMolecules.pdf) | | 10/2025 |
+| 3 | Machine Learning (by [T. Giorgino](https://github.com/giorginolab)) | [![Generic badge](https://img.shields.io/badge/PDF-blue.svg)](https://github.com/carlocamilloni/Structural-Bioinformatics/blob/main/Notes/07_MachineLearning.pdf) | | 10/2025 |
+| 4 | Structures Prediction and Molecular Docking | [![Generic badge](https://img.shields.io/badge/PDF-blue.svg)](https://github.com/carlocamilloni/Structural-Bioinformatics/blob/main/Notes/08_StructurePredictionDocking.pdf) | | 10/2025 |
+| 5 | Molecular Dynamics simulations: force-fields, algorithms, analysis | [![Generic badge](https://img.shields.io/badge/PDF-blue.svg)](https://github.com/carlocamilloni/Structural-Bioinformatics/blob/main/Notes/03_MolecularDynamics.pdf) | | 11/2025 |
+| 6 | Enhanced Sampling Techniques in MD | [![Generic badge](https://img.shields.io/badge/PDF-blue.svg)](https://github.com/carlocamilloni/Structural-Bioinformatics/blob/main/Notes/04_EnhancedMD.pdf) | | 11/2025 |
 | 7 | Markov State Models (by [T. Giorgino](https://github.com/giorginolab)) | [![Generic badge](https://img.shields.io/badge/PDF-blue.svg)](https://github.com/carlocamilloni/Structural-Bioinformatics/blob/main/Notes/05_MarkovSM.pdf) | 11/2025 |
-| 8 | Quantum Chemistry, QM/MM, and simplified models | [![Generic badge](https://img.shields.io/badge/PDF-blue.svg)](https://github.com/carlocamilloni/Structural-Bioinformatics/blob/main/Notes/06_QM_MM_more.pdf) | 12/2025 |
-| 9 | Integrative Modelling and Protein Design | [![Generic badge](https://img.shields.io/badge/PDF-blue.svg)](https://github.com/carlocamilloni/Structural-Bioinformatics/blob/main/Notes/09_Integrative_design.pdf) | 12/2025 |
+| 8 | Quantum Chemistry, QM/MM, and simplified models | [![Generic badge](https://img.shields.io/badge/PDF-blue.svg)](https://github.com/carlocamilloni/Structural-Bioinformatics/blob/main/Notes/06_QM_MM_more.pdf) | | 12/2025 |
+| 9 | Integrative Modelling and Protein Design | [![Generic badge](https://img.shields.io/badge/PDF-blue.svg)](https://github.com/carlocamilloni/Structural-Bioinformatics/blob/main/Notes/09_Integrative_design.pdf) | | 12/2025 |
 
 ### Practicals
 
