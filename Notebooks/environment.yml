@@ -1,0 +1,22 @@
+# Conda environment to run the practicals locally (optional: all the practicals also run on Google Colab).
+#
+#   conda env create -f environment.yml
+#   conda activate sb
+#   jupyter lab
+#
+# Currently covers T00 (Notebooks/t00_intro.ipynb and report_00.ipynb).
+# The other practicals (MD, enhanced sampling, QM, docking, structure prediction) need additional
+# software that is currently installed inside Colab: this file will be extended as they are revisited.
+name: sb
+channels:
+  - conda-forge
+  - nodefaults
+dependencies:
+  - python=3.12
+  - jupyterlab
+  - ipykernel
+  - numpy
+  - scipy
+  - matplotlib
+  - pandas
+  - requests
