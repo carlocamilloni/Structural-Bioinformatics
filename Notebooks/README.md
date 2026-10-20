@@ -12,7 +12,7 @@ If you prefer to work on your own computer (Linux, macOS, or Windows through [WS
 
 Then open the notebook from the `Notebooks` folder. Notes:
 
-* The environment currently covers **T00** (`t00_intro.ipynb` and `report_00.ipynb`). The other practicals rely on software that is installed inside Colab (e.g. GROMACS, PLUMED, CP2K, AutoDock Vina) and will be added to the environment progressively; until then please use Colab for them. [VMD](https://www.ks.uci.edu/Research/vmd/) is needed for T01.
+* The environment currently covers **T00** (`t00_intro.ipynb`, `report_00.ipynb`) and the analysis part of **T02** (`t02_StructurePred.ipynb`; the predictions themselves are run on servers and GPUs). The other practicals rely on software that is installed inside Colab (e.g. GROMACS, PLUMED, CP2K, AutoDock Vina) and will be added to the environment progressively; until then please use Colab for them. [VMD](https://www.ks.uci.edu/Research/vmd/) is needed for T01.
 * The cells that use Google Colab features (for example mounting Google Drive) can be skipped locally.
 * Notebooks write their output files in a folder next to the notebook (for example `Task2/`), which is ignored by git.
 * To update the environment after a `git pull`: `conda env update -f environment.yml --prune`.

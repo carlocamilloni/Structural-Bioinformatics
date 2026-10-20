@@ -4,9 +4,12 @@
 #   conda activate sb
 #   jupyter lab
 #
-# Currently covers T00 (Notebooks/t00_intro.ipynb and report_00.ipynb).
-# The other practicals (MD, enhanced sampling, QM, docking, structure prediction) need additional
-# software that is currently installed inside Colab: this file will be extended as they are revisited.
+# Currently covers:
+#   T00 (Notebooks/t00_intro.ipynb, report_00.ipynb)
+#   T02 (Notebooks/t02_StructurePred.ipynb): the analysis of the predictions. The predictions themselves are made
+#       with servers and GPUs (ColabFold, AlphaFold Server, Boltz) and are not part of this environment.
+# The other practicals (MD, enhanced sampling, QM, docking) need additional software that is currently installed
+# inside Colab: this file will be extended as they are revisited.
 name: sb
 channels:
   - conda-forge
@@ -20,3 +23,5 @@ dependencies:
   - matplotlib
   - pandas
   - requests
+  - biopython
+  - py3dmol
