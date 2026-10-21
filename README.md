@@ -17,8 +17,9 @@ Structural Bioinformatics is an elective course offered within the Master's prog
 ### Getting started
 
 All practicals run as Google Colab notebooks, so no local installation is required — just a Google account. Click any "Open in Colab" badge below to launch a notebook directly.
+You will also need [VMD](https://www.ks.uci.edu/Research/vmd/) or [ChimeraX](https://www.cgl.ucsf.edu/chimerax/).
 
-If you prefer to run a practical locally, you will need [VMD](https://www.ks.uci.edu/Research/vmd/) for T01 and a working `conda`/`pip` environment with the packages imported at the top of each notebook (typically `numpy`, `matplotlib`, `MDAnalysis`, and `biopython`). The `Data/` folder contains all input files referenced by the notebooks.
+If you want to run notebooks locally check the [README.md](Notebooks/README.md) file in the notebooks folder.
 
 ### Repository structure
 
