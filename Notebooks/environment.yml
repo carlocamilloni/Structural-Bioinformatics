@@ -9,10 +9,10 @@
 #
 # Currently covers:
 #   T00 (Notebooks/t00_intro.ipynb, report_00.ipynb)
-#   T02 (Notebooks/t02_StructurePred.ipynb): the analysis of the predictions and the secondary structure prediction
-#       with S4PRED (PyTorch, CPU is enough). The structure predictions themselves are made with servers and GPUs
-#       (ColabFold, AlphaFold Server, Boltz) and are not part of this environment.
-# The other practicals (MD, enhanced sampling, QM, docking) need additional software that is currently installed
+#   T02 (Notebooks/t02_StructurePred.ipynb): the analysis of the predictions and S4PRED (PyTorch, CPU is enough).
+#       The structure predictions themselves are made with servers and GPUs and are not part of this environment.
+#   T03 (Notebooks/t03_docking.ipynb, report_3_docking.ipynb): Meeko, RDKit, AutoDock Vina, pdb2pqr.
+# The other practicals (MD, enhanced sampling, QM) need additional software that is currently installed
 # inside Colab: this file will be extended as they are revisited.
 name: sb
 channels:
@@ -30,3 +30,9 @@ dependencies:
   - biopython
   - py3dmol
   - pytorch          # for S4PRED in T02 (large download, a few hundred MB)
+  - rdkit            # T03
+  - pip
+  - pip:             # T03: the versions tested with pip in Colab-like conditions
+      - meeko
+      - vina
+      - pdb2pqr
