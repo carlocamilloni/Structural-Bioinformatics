@@ -31,8 +31,8 @@ dependencies:
   - py3dmol
   - pytorch          # for S4PRED in T02 (large download, a few hundred MB)
   - rdkit            # T03
+  - gemmi            # T03 (needed by meeko)
   - pip
-  - pip:             # T03: the versions tested with pip in Colab-like conditions
+  - pip:             # T03 (the AutoDock Vina program itself is downloaded by the notebook)
       - meeko
-      - vina
       - pdb2pqr
