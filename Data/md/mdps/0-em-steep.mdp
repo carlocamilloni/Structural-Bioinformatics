@@ -17,7 +17,8 @@ emstep                   = 0.01
 
 ; OUTPUT CONTROL OPTIONS
 ; Output frequency for coords (x), velocities (v) and forces (f)
-nstxout                  = 10
+; no trajectory is needed for a minimisation: the final structure is written to <name>.gro
+nstxout                  = 0
 nstvout                  = 0 
 nstfout                  = 0
 ; Output frequency for energies to log file and energy file
@@ -25,7 +26,7 @@ nstlog                   = 1000
 nstcalcenergy            = 1
 nstenergy                = 1000
 ; Output frequency and precision for .xtc file
-nstxout-compressed       = 1
+nstxout-compressed       = 0
 compressed-x-precision   = 1000
 
 ; NEIGHBORSEARCHING PARAMETERS
@@ -33,8 +34,6 @@ compressed-x-precision   = 1000
 cutoff-scheme            = Verlet
 ; nblist update frequency
 nstlist                  = 1
-; ns algorithm (simple or grid)
-ns_type                  = grid
 ; Periodic boundary conditions: xyz, no, xy
 pbc                      = xyz
 periodic_molecules       = no
