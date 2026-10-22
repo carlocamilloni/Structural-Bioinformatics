@@ -12,7 +12,9 @@
 #   T02 (Notebooks/t02_StructurePred.ipynb): the analysis of the predictions and S4PRED (PyTorch, CPU is enough).
 #       The structure predictions themselves are made with servers and GPUs and are not part of this environment.
 #   T03 (Notebooks/t03_docking.ipynb, report_3_docking.ipynb): Meeko, RDKit, AutoDock Vina, pdb2pqr.
-# The other practicals (MD, enhanced sampling, QM) need additional software that is currently installed
+#   T04 (Notebooks/t04_MD.ipynb, report_4_MD.ipynb): GROMACS (CPU version: much slower than on a Colab GPU), MDAnalysis.
+#   T05 (Notebooks/t05_MDanalysis.ipynb, report_5_MDanalysis.ipynb): MDAnalysis, gdown.
+# The other practicals (enhanced sampling, QM) need additional software that is currently installed
 # inside Colab: this file will be extended as they are revisited.
 name: sb
 channels:
@@ -27,11 +29,14 @@ dependencies:
   - matplotlib
   - pandas
   - requests
-  - biopython
+  - biopython        # T02, T05
   - py3dmol
   - pytorch          # for S4PRED in T02 (large download, a few hundred MB)
   - rdkit            # T03
   - gemmi            # T03 (needed by meeko)
+  - mdanalysis>=2.8  # T04, T05 (2.8 is the first version with DSSP)
+  - gromacs=2026.3=nompi*   # T04 (the same version used on Colab; nompi: the gmx program, no MPI)
+  - gdown            # T05 report (downloads the trajectories from Google Drive)
   - pip
   - pip:             # T03 (the AutoDock Vina program itself is downloaded by the notebook)
       - meeko
