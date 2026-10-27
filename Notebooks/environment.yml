@@ -14,7 +14,9 @@
 #   T03 (Notebooks/t03_docking.ipynb, report_3_docking.ipynb): Meeko, RDKit, AutoDock Vina, pdb2pqr.
 #   T04 (Notebooks/t04_MD.ipynb, report_4_MD.ipynb): GROMACS (CPU version: much slower than on a Colab GPU), MDAnalysis.
 #   T05 (Notebooks/t05_MDanalysis.ipynb, report_5_MDanalysis.ipynb): MDAnalysis, gdown.
-# The other practicals (enhanced sampling, QM) need additional software that is currently installed
+#   T06 (Notebooks/t06_MD_enhanced_martini.ipynb, report_6_MD_enhanced_martini.ipynb): GROMACS with PLUMED
+#       (the notebooks set PLUMED_KERNEL themselves), MDAnalysis, pandas, PeptideBuilder (report, group 1).
+# The other practicals (QM) need additional software that is currently installed
 # inside Colab: this file will be extended as they are revisited.
 name: sb
 channels:
@@ -35,9 +37,11 @@ dependencies:
   - rdkit            # T03
   - gemmi            # T03 (needed by meeko)
   - mdanalysis>=2.8  # T04, T05 (2.8 is the first version with DSSP)
-  - gromacs=2026.3=nompi*   # T04 (the same version used on Colab; nompi: the gmx program, no MPI)
+  - gromacs=2026.3=nompi*   # T04, T06 (the same version used on Colab; nompi: the gmx program, no MPI)
+  - plumed=2.10      # T06 (loaded by gmx mdrun -plumed)
   - gdown            # T05 report (downloads the trajectories from Google Drive)
   - pip
   - pip:             # T03 (the AutoDock Vina program itself is downloaded by the notebook)
       - meeko
       - pdb2pqr
+      - PeptideBuilder   # T06 report (group 1)

@@ -1,0 +1,13 @@
+; Martini 3: energy minimisation
+integrator               = steep
+nsteps                   = 5000
+emtol                    = 100
+cutoff-scheme            = Verlet
+pbc                      = xyz
+coulombtype              = reaction-field
+rcoulomb                 = 1.1
+epsilon_r                = 15
+epsilon_rf               = 0
+vdw-type                 = cut-off
+vdw-modifier             = Potential-shift
+rvdw                     = 1.1

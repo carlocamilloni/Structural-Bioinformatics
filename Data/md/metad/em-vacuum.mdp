@@ -1,0 +1,10 @@
+; energy minimisation in vacuum
+integrator               = steep
+nsteps                   = 5000
+emtol                    = 100
+emstep                   = 0.01
+cutoff-scheme            = Verlet
+pbc                      = xyz
+coulombtype              = cut-off
+rcoulomb                 = 1.0
+rvdw                     = 1.0

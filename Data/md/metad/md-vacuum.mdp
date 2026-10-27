@@ -1,0 +1,23 @@
+; MD in vacuum at 300 K (NVT)
+; there is no solvent: the interactions are computed with a plain cut-off in a box large enough
+; to avoid interactions between the molecule and its periodic images
+integrator               = md
+dt                       = 0.002
+nsteps                   = 5000000       ; 10 ns
+nstxout-compressed       = 500           ; a frame every ps
+nstenergy                = 5000
+nstlog                   = 50000
+cutoff-scheme            = Verlet
+pbc                      = xyz
+coulombtype              = cut-off
+rcoulomb                 = 1.0
+rvdw                     = 1.0
+tcoupl                   = v-rescale
+tc-grps                  = system
+tau_t                    = 0.1
+ref_t                    = 300
+pcoupl                   = no
+constraints              = h-bonds
+gen_vel                  = yes
+gen_temp                 = 300
+gen_seed                 = -1

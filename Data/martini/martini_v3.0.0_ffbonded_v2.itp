@@ -1,0 +1,276 @@
+; GENERALIZED NAMED BONDED TYPES FOR THE MARTINI 3 MODEL
+; Here we present a list of basic parameters, which can be used as defaults 
+; or for starting point for further optimization
+;
+; All definitions are named <type angle/bond/dihedral>_ < 2-4 bead names > _ extra specification 
+;  e.g. a_GL_C1_C4_glyc  (angle between GL-C1-C4 beads for glyc parameters)
+; 
+; If you use these parameters, please cite:
+; K.B. Pedersen et al., The Martini 3 Lipidome: Expanded and Refined Parameters Improve Lipid Phase Behavior*, 
+; ACS Central Science, 2025. doi: 10.1021/acscentsci.5c00755
+; P.C.T. Souza et al., Martini 3: A General Purpose Force Field for Coarse-Grained Molecular Dynamics*, 
+; Nature Methods, 2021. doi: 10.1038/s41592-021-01098-3
+; Last edit Jan-2025, Kasper B. Pedersen
+;
+; Changes from beta_v3 (only renaming and comments):
+; Removed CBT dihedrals
+; replaced "_cbt" with ""
+; replaced "_lipid" with "_def"
+; add params replaced "_glyc" with "_ether" for etherlipids
+; add params replaced "_glyc" with "_plasm" for plasmalogens
+
+;;;;;
+;;;;; ALKANES / ALKENES
+;;;;;
+
+[ bondtypes ]
+; name 			 type     length    k
+; bonds between regular carbon beads containing 4 atoms each:
+#define b_C1_C1_mid         1      0.490    2800.0    ; default R-R distance in the middle of an alkane chain
+#define b_C1_C4_mid         1      0.475    2800.0    ; containing a double bond in one bead
+#define b_C4_C1_mid         1      0.475    2800.0    ; symmetric, same as b_C1_C4_mid
+#define b_C4_C4_mid         1      0.460    2800.0    ; containing a double bond in both beads
+#define b_C1_C1_end         1      0.500    2800.0    ; at the end of the chain, internal conformations in AA reference results in a longer bond on average
+#define b_C4_C1_end         1      0.485    2800.0   
+#define b_C1_C4_end         1      0.485    2800.0   
+#define b_C4_C4_end         1      0.470    2800.0   
+; bonds between a regular 5 carbon bead and a regular 4 carbon bead:
+#define b_C1_C1_mid_5long   1      0.520    2800.0    ; to be used between R-R when one of the R beads is overmapping 5 carbons - consider if an alternative mapping is more appropiate!
+#define b_C1_C4_mid_5long   1      0.505    2800.0
+#define b_C4_C1_mid_5long   1      0.505    2800.0    ; symmetric, same as b_C1_C4_mid_5long
+#define b_C4_C4_mid_5long   1      0.490    2800.0
+; bonds between a small 3 carbon bead and a regular 4 carbon bead:
+#define b_SC1_C1_mid        1      0.420    4400.0    ; to be used between S to R beads
+#define b_SC1_C4_mid        1      0.405    4400.0
+#define b_SC4_C1_mid        1      0.405    4400.0    ; symmetric to b_SC1_C4_mid
+#define b_SC4_C4_mid        1      0.390    4400.0
+#define b_SC1_C1_end        1      0.430    4400.0    ; at the end of the chain, internal conformations in AA reference results in a longer bond on average
+#define b_SC4_C1_end        1      0.415    4400.0   
+#define b_SC1_C4_end        1      0.415    4400.0   
+#define b_SC4_C4_end        1      0.400    4400.0   
+
+[ angletypes ]
+;       name         type      angle    k
+#define a_C1_C1_C1_def      1      180.0	13.5   ; can be used with CBT dihedral potential, fitted from charmm36 reference
+#define a_C1_C4_C1_def      1      140.0	10.0   ; one unsaturation 
+
+#define a_C1_C1_C4_def      1      180.0	13.5   ; across a beads containing a double bond in the first/third bead
+#define a_C4_C1_C1_def      1      180.0	13.5   ; identical to a_C1_C1_C1 to improve transition temperatures of singly unsaturated lipids
+
+#define a_C1_C4_C4_def      1      135.0	8.0    ; second double bond results in different angle distribution
+#define a_C4_C4_C1_def      1      135.0	8.0    
+
+#define a_C4_C1_C4_def      1      180.0	13.5   ; fitted from alkene
+
+#define a_C4_C4_C4_def      1      150.0	6.0    ; three double bonds in a row seem to sample a broader distribution of angles with a tendency for the third doube bond to point in the opposite direction
+
+;;;;;
+;;;;; Phospholipids
+;;;;;
+; section containing parameters for phospholipid head groups
+
+[ bondtypes ]
+; default bonds between head group beads and phosphate to tails
+; name       		type	length	k
+;PC head group
+#define b_NC3_PO4_def	1 	0.404	7000.0
+;PE head group
+#define b_NH3_PO4_def	1 	0.357	7000.0
+;PG head group
+#define b_GL0_PO4_def	1 	0.375	7000.0
+;PS head group
+#define b_CNO_PO4_def	1 	0.388	8000.0
+
+;Phosphate to glycerol backbone and PA
+#define b_PO4_GL_def	    1 	0.440	1500.0
+#define b_PO4_GL_def_long	1 	0.524	1200.0  
+;Phosphate to ether backbone and PA
+#define b_PO4_ET_def    	1 	0.440	1500.0
+#define b_PO4_ET_def_long	1 	0.524	1200.0  
+
+; TAP to glycerol backbone
+#define a_NC3_GL_C_def	1	139.0	10.0    
+
+;bis(monoacylglycero) phosphate (2,2' isomer)
+#define b_GL_OH_22_bmp	    1 	0.292  6000.0  
+
+;bis(monoacylglycero) phosphate (3,3' isomer)
+#define b_PO4_OH_33_bmp	    1 	0.323  4000.0 
+#define b_OH_GL_33_bmp	    1 	0.288  6000.0  
+
+;cardiolipin linker
+#define b_PO4_GL_cl 	    1       0.368  6000.0
+
+[ angletypes ]
+; name			type	angle	k
+;PC head group
+#define a_NC3_PO4_GL_def	1	125.0	15.0
+#define a_NC3_PO4_ET_def	1	125.0	15.0
+;PE head group
+#define a_NH3_PO4_GL_def	1	110.0	15.0
+#define a_NH3_PO4_ET_def	1	110.0	15.0
+;PG head group
+#define a_GL0_PO4_GL_def	1	110.0	10.0
+#define a_GL0_PO4_ET_def	1	110.0	10.0
+;PS head group
+#define a_CNO_PO4_GL_def	1	115.0	17.5
+#define a_CNO_PO4_ET_def	1	115.0	17.5
+;2 bead PS HG
+#define a_PS1_PS2_PO4_def	1	125.0	100.0
+#define a_PS2_PO4_GL_def	1	110.0	10.0
+#define a_PS2_PO4_ET_def	1	110.0	10.0
+
+;Phosphate to glycerol backbone and PA
+#define a_PO4_GL_C_def  	1	139.0	10.0
+
+;Phosphate to ether backbone
+#define a_PO4_ET_C_def  	1	135.0	20.0
+
+;bis(monoacylglycero) phosphate (2,2' isomer)
+#define a_PO4_GL_OH_22_bmp	1   	70.0     8.0
+#define a_OH_GL_C_22_bmp	1	135.0	27.5
+
+;bis(monoacylglycero) phosphate (3,3' isomer)
+#define a_PO4_OH_GL_33_bmp	6   	130.0   0.0 0.0 -4.0 0.0 0.5
+#define a_OH_GL_C_33_bmp	1	130.0	25.0
+
+;cardiolipin linker
+#define a_PO4_GL_PO4_cl  	1	130.0	17.5
+#define a_GL_PO4_GL_cl		1	110.0	10.0
+
+
+;;;;; 
+;;;;; Sphingomyelin and ceramide
+;;;;; 
+
+[ bondtypes ]
+;       name       	type	length	k
+#define b_PO4_OH1_sm		1 	0.380	6000.0  
+#define b_PO4_AM2_sm		1 	0.490	6000.0  
+#define b_OH1_AM2_sm		1 	0.305  20000.0  
+#define b_OH1_SC4_sm		1 	0.345  20000.0  
+#define b_AM2_SC1_sm		1 	0.330	4000.0  
+#define b_AM2_C1_sm_5long	1 	0.405	2400.0  
+
+#define b_COH_OH1_sm		1 	0.253  20000.0  
+#define b_COH_AM2_sm		1 	0.306  20000.0  
+
+[ angletypes ]
+;       name			type	angle	k
+#define a_NC3_PO4_OH1_sm	1	122.0	15.0 
+#define a_PO4_OH1_AM2_sm	1	 91.0	80.0 
+#define a_PO4_OH1_C_sm		1	175.0	15.0
+#define a_OH1_AM2_C_sm		1	150.0	45.0 
+#define a_AM2_OH1_C_sm		1	 85.0	60.0 
+#define a_AM2_C1_C1_sm		1	180.0	13.5 
+#define a_AM2_C1_C4_sm		1	180.0	13.5 
+#define a_AM2_C4_C1_sm		1	140.0	10.0 
+#define a_AM2_C4_C4_sm		1	135.0	 8.0  
+#define a_OH1_C1_C1_sm		1	180.0	13.5 ; trans double bond
+#define a_COH_OH1_C_cera	1   149.0  100.0
+
+
+;;;;;
+;;;;; GLYCEROL, MONOGLYCERIDES, DIGLYCERIDES, TRIGLYCERIDES
+;;;;;
+; section containing parameters for molecules containing glycerol moiety
+
+[ bondtypes ]
+; default bond between GL beads in glycerol moieties (e.g. glycerophospholipid backbone)
+;       name       	type	length	k
+; Below GL is an ester bead as SN4a in triglycerides glycerol backbone
+#define b_GL_GL_glyc		1 	0.315	2100.0    ; in glycerol using SN4a beads
+#define b_GL_GL_glyc_long	1 	0.395	3000.0    ; between sn1 and sn3 esters in triglycerides
+
+#define b_GL_C1_glyc_5long	1 	0.450	2400.0    ; attaching glycerol+ester beads to hydrocarbon tails
+#define b_GL_C4_glyc_5long	1 	0.435	2400.0    ; attaching glycerol+ester beads to hydrocarbon tail with immediate double bond e.g. 22:6
+; These short bonds should only be used if the carbon bead is a small bead
+#define b_GL_SC1_glyc   	1 	0.375	4400.0    ; to distinguish shorter tail e.g. 16:0 from 18:0
+#define b_GL_SC4_glyc   	1 	0.360	4400.0    ; to distinguish shorter tail e.g. 16:0 from 18:0
+
+#define b_COH_GL_def	    1 	0.284	6000.0    ; alkohol in diacylglycerols
+#define b_COH_GL_def_long	1 	0.362	8000.0    ; alkohol in diacylglycerols
+
+#define b_NC3_GL_def		1 	0.450	3800.0    ; TAP trimethylammonium propane
+#define b_NC3_GL_def_long	1 	0.524	1200.0    ; TAP trimethylammonium propane
+
+#define b_DOH_GL_def	    1	0.313   4400.0    ; diol in monoglycerides
+
+[ angletypes ]
+;       name			type	angle	k
+; glycerol backbone to tail angle as in triglycerides and phospholipids
+#define a_GL_GL_C_glyc		1	120.0	20.0 ; glycerol backbone to tail angle
+#define a_GL_C1_C1_glyc		1	180.0	13.5 
+#define a_GL_C1_C4_glyc		1	180.0	13.5  
+#define a_GL_C4_C1_glyc		1	140.0	10.0 ; warning estimated from makeshift charmm36 parameters (the needed dihedral for this bond is not present in c36)
+#define a_GL_C4_C4_glyc		1	135.0	 8.0 ; based on PDPC
+
+#define a_COH_GL_C_def	    1	139.0	30.0 ; hydroxyl in diglycerides
+
+#define a_DOH_GL_C_def      1	132.0	14.0 ; diol in monoglycerides
+
+
+;;;;;
+;;;;; ETHERLIPIDS, PLASMALOGENS
+;;;;;
+
+[ bondtypes ]
+; name			       	type	length	k
+#define b_ET_ET_ether		1 	0.315	3200.0 ; di-alkyl   
+#define b_GL_ET_plasm		1 	0.315	3200.0 ; alkenyl-acyl (plasmalogens)
+#define b_ET_GL_plasm		1 	0.315	3200.0 ; WARNING acyl-alkenyl (sn1/sn2) not validated
+
+#define b_ET_C1_ether_5long	1 	0.420	2400.0    ; attaching ether linker beads to hydrocarbon tails
+#define b_ET_C4_ether_5long	1 	0.405	2400.0    ; attaching ether linker beads to hydrocarbon tail with immediate double bond e.g. 22:6
+; These short bonds should only be used if the carbon bead is a small bead
+#define b_ET_SC1_ether   	1 	0.345	4400.0    ; to distinguish shorter tail e.g. 16:0 from 18:0
+#define b_ET_SC4_ether   	1 	0.330	4400.0    ; to distinguish shorter tail e.g. 16:0 from 18:0
+
+#define b_ET_C1_plasm_5long	1 	0.420	2400.0    ; warning, analog to b_ET_C1_ether_5long
+#define b_ET_C4_plasm_5long	1 	0.405	2400.0    ; warning, analog to b_ET_C4_ether_5long
+#define b_ET_SC1_plasm   	1 	0.345	4400.0    ; warning, analog to b_ET_SC1_ether
+#define b_ET_SC4_plasm   	1 	0.330	4400.0    ; warning, analog to b_ET_SC4_ether
+#define b_GL_C1_plasm_5long	1 	0.450	2400.0    ; warning, analog to b_GL_C1_glyc_5long
+#define b_GL_C4_plasm_5long	1 	0.435	2400.0    ; warning, analog to b_GL_C4_glyc_5long
+#define b_GL_SC1_plasm   	1 	0.375	4400.0    ; warning, analog to b_GL_SC1_glyc
+#define b_GL_SC4_plasm  	1 	0.360	4400.0    ; warning, analog to b_GL_SC4_glyc
+
+[ angletypes ]
+; name				type	angle	k
+; glycerol backbone to tail angle as in triglycerides and phospholipids
+#define a_ET_ET_C_ether		1	120.0	20.0 ; ether backbone to tail angle validated on DHPCE and DMPCE
+#define a_ET_C1_C1_ether	1	180.0	13.5 ; ether backbone to tail angle validated on DHPCE and DMPCE
+#define a_ET_C1_C4_ether	1	180.0	13.5 ; warning, analog to a_GL_C1_C4_glyc
+#define a_ET_C4_C1_ether	1	140.0	10.0 ; warning, analog to a_GL_C4_C1_glyc
+#define a_ET_C4_C4_ether	1	135.0	 8.0 ; warning, analog to a_GL_C4_C4_glyc
+
+#define a_GL_ET_C_plasm		1	120.0	20.0 ; alkenyl-acyl plasmalogen backbone to tail angle validated on PLA18 (PC)
+#define a_ET_GL_C_plasm		1	120.0	20.0 ; WARNING acyl-alkenyl (sn1/sn2) not validated 
+#define a_ET_C1_C1_plasm	1	180.0	13.5 ; warning, analog to a_ET_C1_C1_ether
+#define a_ET_C1_C4_plasm	1	180.0	13.5 ; warning, analog to a_GL_C1_C4_glyc
+#define a_ET_C4_C1_plasm	1	140.0	10.0 ; warning, analog to a_GL_C4_C1_glyc
+#define a_ET_C4_C4_plasm	1	135.0	 8.0 ; warning, analog to a_GL_C4_C4_glyc
+#define a_GL_C1_C1_plasm	1	180.0	13.5 ; warning, analog to a_GL_C1_C1_glyc
+#define a_GL_C1_C4_plasm	1	180.0	13.5 ; warning, analog to a_GL_C1_C4_glyc 
+#define a_GL_C4_C1_plasm	1	140.0	10.0 ; warning, analog to a_GL_C4_C1_glyc
+#define a_GL_C4_C4_plasm	1	135.0	 8.0 ; warning, analog to a_GL_C4_C4_glyc
+
+
+;;;;;
+;;;;; Fatty Acids
+;;;;;
+
+[ bondtypes ]
+; name 			      	type	length	k
+#define b_COO_C1_fa_5long	1 	0.400	2800.0    
+#define b_COO_C4_fa_5long	1 	0.385	2800.0    
+#define b_COO_SC1_fa		1 	0.325	4800.0   
+#define b_COO_SC4_fa		1 	0.310	4800.0  
+
+[ angletypes ]
+; name				type	angle	k
+#define a_COO_C1_C1_fa		1	180.0	13.5 
+#define a_COO_C1_C4_fa		1	180.0	13.5 
+#define a_COO_C4_C1_fa		1	140.0	10.0 
+#define a_COO_C4_C4_fa		1	135.0	8.0 
+

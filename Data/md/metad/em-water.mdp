@@ -1,0 +1,10 @@
+; energy minimisation of a solvated system
+integrator               = steep
+nsteps                   = 5000
+emtol                    = 500
+emstep                   = 0.01
+cutoff-scheme            = Verlet
+pbc                      = xyz
+coulombtype              = pme
+rcoulomb                 = 1.0
+rvdw                     = 1.0

@@ -6,17 +6,19 @@ phi: TORSION ATOMS=@phi-2
 psi: TORSION ATOMS=@psi-2
 
 # Activate well-tempered metadynamics in phi and psi
-metad: METAD ARG=phi,psi ...
-# Deposit a Gaussian every 500 time steps, with initial height 
+metad: METAD ...
+  ARG=phi,psi
+# Deposit a Gaussian every 500 time steps (1 ps), with initial height
 # equal to 1.2 kJ/mol and bias factor equal to 10
-  PACE=500 HEIGHT=1.2 BIASFACTOR=10
+  PACE=500 HEIGHT=1.2 BIASFACTOR=10 TEMP=300
 # Gaussian width (sigma) should be chosen based on the CV fluctuations in unbiased run
 # try 1/2 or 1/3 of the estimated fluctuations
   SIGMA=0.2,0.2
 # Gaussians will be written to a file HILLS and also stored on grid
-  FILE=HILLS.txt GRID_MIN=-pi,-pi GRID_MAX=pi,pi
+  FILE=HILLS-MTD.txt GRID_MIN=-pi,-pi GRID_MAX=pi,pi
+# compute c(t), needed to reweight the simulation (see below)
+  CALC_RCT
 ...
 
 # Print the two collective variables and the metadynamics bias on COLVAR file every STRIDE steps
-PRINT ARG=phi,psi,metad.bias FILE=COLVAR-MTD.txt STRIDE=500
-
+PRINT ARG=phi,psi,metad.bias,metad.rbias FILE=COLVAR-MTD.txt STRIDE=500

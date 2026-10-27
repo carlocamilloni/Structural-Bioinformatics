@@ -1,8 +1,8 @@
-# Activate MOLINFO functionalities that allow using syntax shortcuts
+# Activate MOLINFO functionalities that allow using syntax shortcuts (e.g. @phi-2)
 MOLINFO STRUCTURE=reference.pdb
-# Compute the backbone dihedral angle phi, defined by atoms C-N-CA-C
+# Compute the backbone dihedral angle phi of residue 2, defined by atoms C-N-CA-C
 phi: TORSION ATOMS=@phi-2
-# Compute the backbone dihedral angle psi, defined by atoms N-CA-C-N
+# Compute the backbone dihedral angle psi of residue 2, defined by atoms N-CA-C-N
 psi: TORSION ATOMS=@psi-2
-# Print the two collective variables on COLVAR-CV.txt file every STRIDE steps
+# Print the two collective variables on COLVAR-CV.txt file every STRIDE steps (frames, with plumed driver)
 PRINT ARG=phi,psi FILE=COLVAR-CV.txt STRIDE=1

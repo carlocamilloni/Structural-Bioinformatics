@@ -1,0 +1,26 @@
+; production MD in the NPT ensemble (300 K, 1 bar)
+integrator               = md
+dt                       = 0.002
+nsteps                   = 5000000       ; 10 ns
+nstxout-compressed       = 500           ; a frame every ps
+compressed-x-grps        = Protein       ; only the peptide is written in the trajectory
+nstenergy                = 5000
+nstlog                   = 50000
+cutoff-scheme            = Verlet
+pbc                      = xyz
+coulombtype              = pme
+rcoulomb                 = 1.0
+rvdw                     = 1.0
+DispCorr                 = EnerPres
+tcoupl                   = v-rescale
+tc-grps                  = system
+tau_t                    = 0.1
+ref_t                    = 300
+pcoupl                   = c-rescale
+pcoupltype               = isotropic
+tau_p                    = 1.0
+compressibility          = 4.5e-5
+ref_p                    = 1.0
+constraints              = h-bonds
+continuation             = yes
+gen_vel                  = no

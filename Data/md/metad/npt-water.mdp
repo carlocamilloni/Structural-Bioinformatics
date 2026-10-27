@@ -1,0 +1,26 @@
+; equilibration in the NPT ensemble (300 K, 1 bar)
+integrator               = md
+dt                       = 0.002
+nsteps                   = 250000        ; 500 ps
+nstxout-compressed       = 5000
+nstenergy                = 500
+nstlog                   = 5000
+cutoff-scheme            = Verlet
+pbc                      = xyz
+coulombtype              = pme
+rcoulomb                 = 1.0
+rvdw                     = 1.0
+DispCorr                 = EnerPres
+tcoupl                   = v-rescale
+tc-grps                  = system
+tau_t                    = 0.1
+ref_t                    = 300
+pcoupl                   = c-rescale
+pcoupltype               = isotropic
+tau_p                    = 1.0
+compressibility          = 4.5e-5
+ref_p                    = 1.0
+constraints              = h-bonds
+gen_vel                  = yes
+gen_temp                 = 300
+gen_seed                 = -1

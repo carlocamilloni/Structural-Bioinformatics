@@ -1,0 +1,14 @@
+# Well-tempered metadynamics biasing only phi: psi is computed and printed, but not biased
+MOLINFO STRUCTURE=reference.pdb
+phi: TORSION ATOMS=@phi-2
+psi: TORSION ATOMS=@psi-2
+
+metad: METAD ...
+  ARG=phi
+  PACE=500 HEIGHT=1.2 BIASFACTOR=10 TEMP=300
+  SIGMA=0.2
+  FILE=HILLS-phi.txt GRID_MIN=-pi GRID_MAX=pi
+  CALC_RCT
+...
+
+PRINT ARG=phi,psi,metad.bias,metad.rbias FILE=COLVAR-phi.txt STRIDE=500

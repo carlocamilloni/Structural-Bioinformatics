@@ -1,0 +1,9 @@
+; Martini 3 topology for lipid bilayers
+; parameters from https://github.com/Martini-Force-Field-Initiative (Souza et al. Nat Methods 2021,
+; Pedersen et al. ACS Cent Sci 2025, Borges-Araujo et al. JCTC 2023)
+#include "martini_v3.0.0.itp"
+#include "martini_v3.0.0_ffbonded_v2.itp"       ; must come before the lipids
+#include "martini_v3.0.0_phospholipids_PC_v2.itp"
+#include "martini_v3.0.0_sterols_v1.itp"
+#include "martini_v3.0.0_solvents_v1.itp"
+#include "martini_v3.0.0_ions_v1.itp"
