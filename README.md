@@ -27,8 +27,8 @@ If you want to run notebooks locally check the [README.md](Notebooks/README.md) 
     Notebooks : Colab Notebooks for the practicals (t0X_*.ipynb) and their report templates (report_X_*.ipynb)
     Data      : Additional input files needed for the practicals
         docking/ : protein and ligand structures for the docking exercise (T03)
-        martini/ : Martini coarse-grained force field and topology files (T06)
-        md/      : GROMACS .mdp parameter files and PLUMED metadynamics inputs (T04–T06)
+        martini/ : Martini 3 force field, lipid and cholesterol topologies, insane, .mdp files and benchmark data (T06)
+        md/      : GROMACS .mdp parameter files (T04–T06) and, in md/metad, the PLUMED inputs for metadynamics (T06)
         qm/      : small-molecule structures and reference output for the QM exercise (T07)
         stats/   : datasets for the statistical analysis exercise (T00)
 
