@@ -17,7 +17,7 @@ Structural Bioinformatics is an elective course offered within the Master's prog
 ### Getting started
 
 All practicals run as Google Colab notebooks, so no local installation is required — just a Google account. Click any "Open in Colab" badge below to launch a notebook directly.
-You will also need [VMD](https://www.ks.uci.edu/Research/vmd/) or [ChimeraX](https://www.cgl.ucsf.edu/chimerax/).
+You will also need [VMD](https://www.ks.uci.edu/Research/vmd/) or [ChimeraX](https://www.cgl.ucsf.edu/chimerax/). For T07 you need your own (free, academic) copy of [ORCA](https://www.faccts.de/orca/): see the instructions in the notebook.
 
 If you want to run notebooks locally check the [README.md](Notebooks/README.md) file in the notebooks folder.
 
@@ -29,7 +29,7 @@ If you want to run notebooks locally check the [README.md](Notebooks/README.md) 
         docking/ : protein and ligand structures for the docking exercise (T03)
         martini/ : Martini 3 force field, lipid and cholesterol topologies, insane, .mdp files and benchmark data (T06)
         md/      : GROMACS .mdp parameter files (T04–T06) and, in md/metad, the PLUMED inputs for metadynamics (T06)
-        qm/      : small-molecule structures and reference output for the QM exercise (T07)
+        qm/      : S22 dimers with reference interaction energies (s22/) and chromophore structures (chromophores/) for the QM exercise (T07)
         stats/   : datasets for the statistical analysis exercise (T00)
 
 For each academic year, a snapshot of the repository is saved as a release/tag (see [Previous years](#previous-years) below).
@@ -59,8 +59,8 @@ For each academic year, a snapshot of the repository is saved as a release/tag (
 | T03: Molecular Docking | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/carlocamilloni/Structural-Bioinformatics/blob/main/Notebooks/t03_docking.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/carlocamilloni/Structural-Bioinformatics/blob/main/Notebooks/report_3_docking.ipynb) | 10/2026 |
 | T04: Molecular Dynamics simulations | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/carlocamilloni/Structural-Bioinformatics/blob/main/Notebooks/t04_MD.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/carlocamilloni/Structural-Bioinformatics/blob/main/Notebooks/report_4_MD.ipynb) | 10/2026 |
 | T05: More on the analysis of MD simulations | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/carlocamilloni/Structural-Bioinformatics/blob/main/Notebooks/t05_MDanalysis.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/carlocamilloni/Structural-Bioinformatics/blob/main/Notebooks/report_5_MDanalysis.ipynb) | 10/2026 |
-| T06: Enhanced sampling and simplified models | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/carlocamilloni/Structural-Bioinformatics/blob/main/Notebooks/t06_MD_enhanced_martini.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/carlocamilloni/Structural-Bioinformatics/blob/main/Notebooks/report_6_MD_enhanced_martini.ipynb) | 10/2026 |
-| T07: Basic DFT simulations | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/carlocamilloni/Structural-Bioinformatics/blob/main/Notebooks/t07_QM.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/carlocamilloni/Structural-Bioinformatics/blob/main/Notebooks/report_7_QM.ipynb) | 11/2025 |
+| T06: Enhanced sampling and simplified models | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/carlocamilloni/Structural-Bioinformatics/blob/main/Notebooks/t06_MD_enhanced_martini.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/carlocamilloni/Structural-Bioinformatics/blob/main/Notebooks/report_6_MD_enhanced_martini.ipynb) | 11/2025 |
+| T07: Quantum chemistry with ORCA | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/carlocamilloni/Structural-Bioinformatics/blob/main/Notebooks/t07_QM.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/carlocamilloni/Structural-Bioinformatics/blob/main/Notebooks/report_7_QM.ipynb) | 11/2026 |
 | T08: Protein Design | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/carlocamilloni/Structural-Bioinformatics/blob/main/Notebooks/t08_design.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/carlocamilloni/Structural-Bioinformatics/blob/main/Notebooks/report_8_design.ipynb) | 11/2025 |
 
 ### Reference Papers

@@ -16,8 +16,8 @@
 #   T05 (Notebooks/t05_MDanalysis.ipynb, report_5_MDanalysis.ipynb): MDAnalysis, gdown.
 #   T06 (Notebooks/t06_MD_enhanced_martini.ipynb, report_6_MD_enhanced_martini.ipynb): GROMACS with PLUMED
 #       (the notebooks set PLUMED_KERNEL themselves), MDAnalysis, pandas, PeptideBuilder (report, group 1).
-# The other practicals (QM) need additional software that is currently installed
-# inside Colab: this file will be extended as they are revisited.
+#   T07 (Notebooks/t07_QM.ipynb, report_7_QM.ipynb): py3dmol, pandas; ORCA itself is not on conda-forge
+#       (free academic licence, personal download from the ORCA forum): set ORCA_DIR to its folder.
 name: sb
 channels:
   - conda-forge
