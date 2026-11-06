@@ -1,0 +1,11 @@
+name,family,description,biology,nA,qA,qB,reference_kcal,geometry
+uracil_hbond,calibration,"uracil dimer, hydrogen-bonded (S22 n. 5)",U–U pairing in RNA,12,0,0,-20.69,"S22 (Jurecka et al. 2006), CCSD(T)/CBS reference energy"
+uracil_stack,calibration,"uracil dimer, stacked (S22 n. 13)",base stacking in RNA,12,0,0,-9.74,"S22 (Jurecka et al. 2006), CCSD(T)/CBS reference energy"
+at_wc,nucleic acids,adenine–thymine Watson–Crick pair (S22 n. 7),A–T base pair in DNA,15,0,0,-16.74,"S22 (Jurecka et al. 2006), CCSD(T)/CBS reference energy"
+indole_benzene,aromatic contacts,"indole–benzene, stacked (S22 n. 14)",Trp–Phe stacking,12,0,0,-4.59,"S22 (Jurecka et al. 2006), CCSD(T)/CBS reference energy"
+gc_wc,nucleic acids,guanine–cytosine Watson–Crick pair,G–C base pair in DNA/RNA,16,0,0,,built and optimised with r2SCAN-3c
+dms_benzene,aromatic contacts,dimethyl sulfide on benzene,Met–Phe (S–π) contact,12,0,0,,built and optimised with r2SCAN-3c
+methylammonium_indole,charged groups,methylammonium on 3-methylindole,Lys–Trp cation–π interaction,19,0,1,,built and optimised with r2SCAN-3c
+acetate_methylguanidinium,charged groups,acetate–methylguanidinium,Asp–Arg salt bridge,7,-1,1,,built and optimised with r2SCAN-3c in water (CPCM): in vacuum the proton would move to the acetate
+nma_dimer,protein hydrogen bonds,N-methylacetamide dimer,backbone N–H···O=C hydrogen bond,12,0,0,,built and optimised with r2SCAN-3c
+methanol_acetate,protein hydrogen bonds,methanol–acetate,Ser–Asp charge-assisted hydrogen bond,6,0,-1,,built and optimised with r2SCAN-3c
