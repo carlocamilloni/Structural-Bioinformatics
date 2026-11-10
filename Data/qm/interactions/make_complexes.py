@@ -64,10 +64,18 @@ mN1, eN1, XN1, n1 = mol3d('C[C:2](=[O:1])[NH:3]C')
 mN2, eN2, XN2, n2 = mol3d('C[C:2](=[O:1])[NH:3]C', seed=11)
 Hn = hs_of(mN1, n1[3])[0]
 out['nma_dimer'] = ('N-methylacetamide dimer (backbone N-H...O=C)', eN1, XN1, eN2, dock(eN1, XN1, eN2, XN2, [(Hn, n2[1], 1.95), (n1[3], n2[1], 2.95)]), 0, 0)
-# methanol - acetate
-mM, eM, XM, mm = mol3d('C[OH:1]')
-mAc2, eAc2, XAc2, ac2 = mol3d('C[C:3](=[O:1])[O-:2]')
-Ho = hs_of(mM, mm[1])[0]
-out['methanol_acetate'] = ('methanol - acetate (Ser-Asp, charge-assisted H-bond)', eM, XM, eAc2, dock(eM, XM, eAc2, XAc2, [(Ho, ac2[1], 1.65), (mm[1], ac2[1], 2.6)]), 0, -1)
+# dimethyl phosphate - methylguanidinium (Arg-phosphate, two N-H...O bonds to the two free O of the phosphate)
+mP, eP, XP, pm = mol3d('CO[P:3](=[O:1])([O-:2])OC')
+mG3, eG3, XG3, g3 = mol3d('C[NH:1][C:3](=[NH2+:2])N')
+Ha3 = hs_of(mG3, g3[1])[0]
+Hb3 = min([h for a in mG3.GetAtoms() if a.GetSymbol() == 'N' and a.GetIdx() != g3[1] for h in hs_of(mG3, a.GetIdx())], key=lambda h: np.linalg.norm(XG3[h] - XG3[Ha3]))
+out['phosphate_methylguanidinium'] = ('dimethyl phosphate - methylguanidinium (Arg-DNA phosphate)', eP, XP, eG3, dock(eP, XP, eG3, XG3, [(pm[1], Ha3, 1.75), (pm[2], Hb3, 1.75)]), -1, 1)
+# dimethyl phosphate - methylammonium (Lys-phosphate, one N-H...O bond)
+mP2, eP2, XP2, pm2 = mol3d('CO[P:3](=[O:1])([O-:2])OC')
+mA2, eA2, XA2, am2 = mol3d('C[NH3+:1]')
+Hl = hs_of(mA2, am2[1])[0]
+out['phosphate_methylammonium'] = ('dimethyl phosphate - methylammonium (Lys-DNA phosphate)', eP2, XP2, eA2, dock(eP2, XP2, eA2, XA2, [(pm2[1], Hl, 1.7), (pm2[1], am2[1], 2.7)]), -1, 1)
 for name, (title, eA_, XA_, eB_, XB_, qA, qB) in out.items():
+    if len(sys.argv) > 1 and name not in sys.argv[1:]:
+        continue
     write(name, title, eA_, XA_, eB_, XB_, qA, qB)

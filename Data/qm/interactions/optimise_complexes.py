@@ -1,11 +1,12 @@
-# Optimises a complex with GFN2-xTB and then r2SCAN-3c (the salt bridge in water, CPCM). Usage: python optimise_complexes.py name
+# Optimises a complex with GFN2-xTB and then r2SCAN-3c (the ion pairs in water, CPCM). Usage: python optimise_complexes.py name
 import os, subprocess, sys, time
 O='/content/orca_6_1_1_linux_x86-64_shared_openmpi418_nodmrg/orca'; os.environ['OMP_NUM_THREADS']='1'
 name=sys.argv[1]
 L=open(name+'.xyz').read().splitlines(); n=int(L[0]); head=L[1]
 qA=int(head.split('qA=')[1].split()[0]); qB=int(head.split('qB=')[1].split()[0]); q=qA+qB
-solv_x = ' ALPB(water)' if name=='acetate_methylguanidinium' else ''
-solv_d = ' CPCM(water)' if name=='acetate_methylguanidinium' else ''
+ion_pair = qA * qB < 0          # ion pairs are optimised in water: in vacuum the proton would jump from the cation to the anion
+solv_x = ' ALPB(water)' if ion_pair else ''
+solv_d = ' CPCM(water)' if ion_pair else ''
 os.makedirs(name, exist_ok=True); os.chdir(name)
 coords='\n'.join(L[2:2+n])
 def run(tag, kw, xyz):
